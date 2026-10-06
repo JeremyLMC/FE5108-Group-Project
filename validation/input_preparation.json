@@ -1,0 +1,39 @@
+{
+  "status": "inputs_rebuilt_requires_independent_validation",
+  "checked_at_utc": "2026-10-06T14:16:56.360089+00:00",
+  "analysis_version": "dow2015_29",
+  "asset_count": 29,
+  "return_months": 130,
+  "network_requests": 0,
+  "input_source": "frozen source snapshots",
+  "teacher_price_file": "data/raw/instructor/prices_us_monthly.csv",
+  "teacher_overlap": {
+    "stocks": [
+      "AAPL",
+      "CVX",
+      "CSCO",
+      "KO",
+      "XOM",
+      "HD",
+      "INTC",
+      "JNJ",
+      "JPM",
+      "MRK",
+      "MSFT",
+      "PG",
+      "VZ",
+      "WMT",
+      "DIS"
+    ],
+    "months": 119,
+    "start": "2016-10",
+    "end": "2026-08",
+    "maximum_yahoo_teacher_return_difference_bp": 0.00920971307882823
+  },
+  "corporate_action_events": 7,
+  "zero_missing_returns": true,
+  "french_vintage": "202608",
+  "caps_date": "2026-08-31",
+  "wealth_index_reconstruction_max_error": 4.440892098500626e-16,
+  "output": "data/processed"
+}

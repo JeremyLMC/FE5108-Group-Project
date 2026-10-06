@@ -1,0 +1,459 @@
+{
+  "schema_version": 3,
+  "analysis_version": "dow2015_29",
+  "decision_date": "2026-10-06",
+  "decision_status": "accepted_historical_cohort_with_documented_limits",
+  "primary_universe": {
+    "tickers": [
+      "MMM",
+      "AXP",
+      "AAPL",
+      "BA",
+      "CAT",
+      "CVX",
+      "CSCO",
+      "KO",
+      "XOM",
+      "GE",
+      "GS",
+      "HD",
+      "INTC",
+      "IBM",
+      "JNJ",
+      "JPM",
+      "MCD",
+      "MRK",
+      "MSFT",
+      "NKE",
+      "PFE",
+      "PG",
+      "TRV",
+      "RTX",
+      "UNH",
+      "VZ",
+      "V",
+      "WMT",
+      "DIS"
+    ],
+    "asset_count": 29,
+    "base_date": "2015-10-31",
+    "membership_rule": "Fixed historical Dow roster; exclude old DuPont for disclosed historical-price gap; retain later index removals; no replacement-stock entry.",
+    "members": [
+      {
+        "original_ticker": "MMM",
+        "company_name_at_base": "3M Co.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "MMM"
+      },
+      {
+        "original_ticker": "AXP",
+        "company_name_at_base": "American Express Co.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "AXP"
+      },
+      {
+        "original_ticker": "AAPL",
+        "company_name_at_base": "Apple Inc.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "AAPL"
+      },
+      {
+        "original_ticker": "BA",
+        "company_name_at_base": "Boeing Co.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "BA"
+      },
+      {
+        "original_ticker": "CAT",
+        "company_name_at_base": "Caterpillar Inc.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "CAT"
+      },
+      {
+        "original_ticker": "CVX",
+        "company_name_at_base": "Chevron Corp.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "CVX"
+      },
+      {
+        "original_ticker": "CSCO",
+        "company_name_at_base": "Cisco Systems Inc.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "CSCO"
+      },
+      {
+        "original_ticker": "KO",
+        "company_name_at_base": "Coca-Cola Co.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "KO"
+      },
+      {
+        "original_ticker": "DD",
+        "company_name_at_base": "E. I. du Pont de Nemours & Co. (Historical EID)",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": "2017-09-01",
+        "index_replacement": "DWDP",
+        "later_index_removal_source_ids": [
+          2
+        ],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": false,
+        "quote_symbol": "DD",
+        "exclusion_reason": "Old E. I. du Pont 2015–2017 identity-correct history unavailable from tested sources; current DD premerger history is old Dow."
+      },
+      {
+        "original_ticker": "XOM",
+        "company_name_at_base": "Exxon Mobil Corp.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": "2020-08-31",
+        "index_replacement": "CRM",
+        "later_index_removal_source_ids": [
+          5
+        ],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "XOM"
+      },
+      {
+        "original_ticker": "GE",
+        "company_name_at_base": "General Electric Co.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": "2018-06-26",
+        "index_replacement": "WBA",
+        "later_index_removal_source_ids": [
+          3
+        ],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "GE"
+      },
+      {
+        "original_ticker": "GS",
+        "company_name_at_base": "Goldman Sachs Group Inc.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "GS"
+      },
+      {
+        "original_ticker": "HD",
+        "company_name_at_base": "Home Depot Inc.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "HD"
+      },
+      {
+        "original_ticker": "INTC",
+        "company_name_at_base": "Intel Corp.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": "2024-11-08",
+        "index_replacement": "NVDA",
+        "later_index_removal_source_ids": [
+          7
+        ],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "INTC"
+      },
+      {
+        "original_ticker": "IBM",
+        "company_name_at_base": "International Business Machines Corp.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "IBM"
+      },
+      {
+        "original_ticker": "JNJ",
+        "company_name_at_base": "Johnson & Johnson",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "JNJ"
+      },
+      {
+        "original_ticker": "JPM",
+        "company_name_at_base": "JPMorgan Chase & Co.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "JPM"
+      },
+      {
+        "original_ticker": "MCD",
+        "company_name_at_base": "McDonald’s Corp.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "MCD"
+      },
+      {
+        "original_ticker": "MRK",
+        "company_name_at_base": "Merck & Co. Inc.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "MRK"
+      },
+      {
+        "original_ticker": "MSFT",
+        "company_name_at_base": "Microsoft Corp.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "MSFT"
+      },
+      {
+        "original_ticker": "NKE",
+        "company_name_at_base": "NIKE Inc. Class B",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "NKE"
+      },
+      {
+        "original_ticker": "PFE",
+        "company_name_at_base": "Pfizer Inc.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": "2020-08-31",
+        "index_replacement": "AMGN",
+        "later_index_removal_source_ids": [
+          5
+        ],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "PFE"
+      },
+      {
+        "original_ticker": "PG",
+        "company_name_at_base": "Procter & Gamble Co.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "PG"
+      },
+      {
+        "original_ticker": "TRV",
+        "company_name_at_base": "Travelers Companies Inc.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "TRV"
+      },
+      {
+        "original_ticker": "UTX",
+        "company_name_at_base": "United Technologies Corp.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": "2020-08-31",
+        "index_replacement": "HON",
+        "later_index_removal_source_ids": [
+          5
+        ],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "RTX"
+      },
+      {
+        "original_ticker": "UNH",
+        "company_name_at_base": "UnitedHealth Group Inc.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "UNH"
+      },
+      {
+        "original_ticker": "VZ",
+        "company_name_at_base": "Verizon Communications Inc.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": "2026-06-29",
+        "index_replacement": "GOOGL",
+        "later_index_removal_source_ids": [
+          8
+        ],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "VZ"
+      },
+      {
+        "original_ticker": "V",
+        "company_name_at_base": "Visa Inc. Class A",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "V"
+      },
+      {
+        "original_ticker": "WMT",
+        "company_name_at_base": "Wal-Mart Stores Inc.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "WMT"
+      },
+      {
+        "original_ticker": "DIS",
+        "company_name_at_base": "Walt Disney Co.",
+        "base_date": "2015-10-31",
+        "roster_source_id": 1,
+        "later_index_removal_date": null,
+        "index_replacement": null,
+        "later_index_removal_source_ids": [],
+        "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement.",
+        "included": true,
+        "quote_symbol": "DIS"
+      }
+    ]
+  },
+  "sample": {
+    "price_start_month": "2015-10",
+    "return_start_month": "2015-11",
+    "return_end_month": "2026-08",
+    "return_months": 130,
+    "value_weight_as_of_date": "2026-08-31",
+    "end_reason": "Latest jointly available complete month; current official French release ends August 2026."
+  },
+  "sample_design": {
+    "required_price_start_month": "2015-10",
+    "required_price_end_month": "2026-08",
+    "return_start_month": "2015-11",
+    "return_end_month": "2026-08",
+    "observations": 130
+  },
+  "data_policy": {
+    "bundle_original_prices": "data/raw/instructor/prices_us_monthly.csv",
+    "prices": "Instructor overlap priority plus Yahoo source-native adjusted-price extensions and event-day wealth reconstruction",
+    "market_caps": "Yahoo exact-date native monthlyMarketCap USD, fixed sample-end descriptive weights",
+    "factors": "Official Kenneth French US FF3 and RF, 202608 vintage",
+    "return_policy": "Use instructor price-derived returns on covered ordinary months; elsewhere Yahoo adjclose. For seven scoped mandatory distributions, replace the provider event-day gross with main-share plus child-share closing wealth, liquidate child shares at that close and reinvest in the main share; keep mainline exposure thereafter. Prices_us_monthly is a linked baseline-100 wealth index, not USD/share quotes."
+  },
+  "limitations": [
+    "Historical large-cap index cohort is not the full US equity market.",
+    "Keeping later index removals mitigates current-member survivorship selection; does not eliminate all survivorship bias or prove a quantified return correction.",
+    "Old DuPont is excluded for a historical data gap, leaving residual availability selection.",
+    "Index removal is not bankruptcy or stock-exchange delisting.",
+    "Spin-off child shares are valued and reinvested at the event close without costs; continuing company exposure excludes holding child shares indefinitely.",
+    "Other provider corporate-action adjustments and all publication-time vintages are not independently reconstructed."
+  ],
+  "active_report": {
+    "pdf": "reports/stage1/Stage1_Portfolio_Choice_Dow2015_Revised.pdf",
+    "pages": 7,
+    "version_authority": "Most recently reviewed PDF; editable Word prose remains in the report-editing workspace and is not regenerated by the numerical pipeline."
+  },
+  "source_files": {
+    "roster": "data/evidence/roster_and_removals.json",
+    "corporate_action_terms": "data/evidence/corporate_action_official_core.json",
+    "corporate_action_corrections": "data/evidence/corporate_action_economic_corrections.json"
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "checked_at_utc": "2026-10-06T14:16:54.661224+00:00",
+  "offline": true,
+  "event_count": 7,
+  "max_accepted_evidence_difference": 0.0,
+  "method": "Recover event-date quote units using the full cached split inventory; value mandatory child shares at event close and reinvest in continuing parent; replace the vendor event gross exactly once.",
+  "events": [
+    {
+      "event_id": "UTX_RTX_20200403",
+      "ticker": "RTX",
+      "event_date": "2020-04-03",
+      "previous_date": "2020-04-02",
+      "children": [
+        {
+          "symbol": "CARR",
+          "shares_per_old_share": 1.0
+        },
+        {
+          "symbol": "OTIS",
+          "shares_per_old_share": 0.5
+        }
+      ],
+      "parent_previous_spot_close": 86.01000159835816,
+      "parent_event_spot_close": 49.93000030517578,
+      "source_yahoo_daily_gross": 0.9224368175472222,
+      "economic_daily_gross": 1.052319480838256,
+      "multiplier": 1.1408038586712037,
+      "child_event_spot_closes": {
+        "CARR": 16.920000076293945,
+        "OTIS": 47.31999969482422
+      },
+      "future_split_products": {
+        "parent_before": 1.589,
+        "parent_after": 1
+      },
+      "ordinary_cash_dividend_overlap": false
+    },
+    {
+      "event_id": "PFE_VTRS_20201117",
+      "ticker": "PFE",
+      "event_date": "2020-11-17",
+      "previous_date": "2020-11-16",
+      "children": [
+        {
+          "symbol": "VTRS",
+          "shares_per_old_share": 0.124079
+        }
+      ],
+      "parent_previous_spot_close": 37.330000289916995,
+      "parent_event_spot_close": 36.040000915527344,
+      "source_yahoo_daily_gross": 1.0175770762886582,
+      "economic_daily_gross": 1.019754928979802,
+      "multiplier": 1.0021402336411576,
+      "child_event_spot_closes": {
+        "VTRS": 16.34000015258789
+      },
+      "future_split_products": {
+        "parent_before": 1.054,
+        "parent_after": 1
+      },
+      "ordinary_cash_dividend_overlap": false
+    },
+    {
+      "event_id": "MRK_OGN_20210603",
+      "ticker": "MRK",
+      "event_date": "2021-06-03",
+      "previous_date": "2021-06-02",
+      "children": [
+        {
+          "symbol": "OGN",
+          "shares_per_old_share": 0.1
+        }
+      ],
+      "parent_previous_spot_close": 75.86999645996094,
+      "parent_event_spot_close": 73.91000366210938,
+      "source_yahoo_daily_gross": 1.0209264050816564,
+      "economic_daily_gross": 1.0229340619920377,
+      "multiplier": 1.001966505029538,
+      "child_event_spot_closes": {
+        "OGN": 37.0
+      },
+      "future_split_products": {
+        "parent_before": 1.048,
+        "parent_after": 1
+      },
+      "ordinary_cash_dividend_overlap": false
+    },
+    {
+      "event_id": "IBM_KD_20211104",
+      "ticker": "IBM",
+      "event_date": "2021-11-04",
+      "previous_date": "2021-11-03",
+      "children": [
+        {
+          "symbol": "KD",
+          "shares_per_old_share": 0.2
+        }
+      ],
+      "parent_previous_spot_close": 127.13000302124024,
+      "parent_event_spot_close": 120.8499984741211,
+      "source_yahoo_daily_gross": 0.9943293835753775,
+      "economic_daily_gross": 0.9921025352701511,
+      "multiplier": 0.9977604520775408,
+      "child_event_spot_closes": {
+        "KD": 26.3799991607666
+      },
+      "future_split_products": {
+        "parent_before": 1.046,
+        "parent_after": 1
+      },
+      "ordinary_cash_dividend_overlap": false
+    },
+    {
+      "event_id": "GE_GEHC_20230104",
+      "ticker": "GE",
+      "event_date": "2023-01-04",
+      "previous_date": "2023-01-03",
+      "children": [
+        {
+          "symbol": "GEHC",
+          "shares_per_old_share": 0.3333333333333333
+        }
+      ],
+      "parent_previous_spot_close": 84.98000132326125,
+      "parent_event_spot_close": 70.20000086593627,
+      "source_yahoo_daily_gross": 1.058204260940997,
+      "economic_daily_gross": 1.0633482390170748,
+      "multiplier": 1.0048610445695083,
+      "child_event_spot_closes": {
+        "GEHC": 60.4900016784668
+      },
+      "future_split_products": {
+        "parent_before": 1.6050929999999997,
+        "parent_after": 1.253
+      },
+      "ordinary_cash_dividend_overlap": false
+    },
+    {
+      "event_id": "GE_GEV_20240402",
+      "ticker": "GE",
+      "event_date": "2024-04-02",
+      "previous_date": "2024-04-01",
+      "children": [
+        {
+          "symbol": "GEV",
+          "shares_per_old_share": 0.25
+        }
+      ],
+      "parent_previous_spot_close": 175.36000375366208,
+      "parent_event_spot_close": 136.47000122070312,
+      "source_yahoo_daily_gross": 0.9751193500414709,
+      "economic_daily_gross": 0.9778170480742948,
+      "multiplier": 1.0027665311253533,
+      "child_event_spot_closes": {
+        "GEV": 140.0
+      },
+      "future_split_products": {
+        "parent_before": 1.253,
+        "parent_after": 1
+      },
+      "ordinary_cash_dividend_overlap": false
+    },
+    {
+      "event_id": "MMM_SOLV_20240401",
+      "ticker": "MMM",
+      "event_date": "2024-04-01",
+      "previous_date": "2024-03-28",
+      "children": [
+        {
+          "symbol": "SOLV",
+          "shares_per_old_share": 0.25
+        }
+      ],
+      "parent_previous_spot_close": 106.07000363159179,
+      "parent_event_spot_close": 94.0199966430664,
+      "source_yahoo_daily_gross": 1.0601292392405948,
+      "economic_daily_gross": 1.0492598515236469,
+      "multiplier": 0.9897471107157331,
+      "child_event_spot_closes": {
+        "SOLV": 69.0999984741211
+      },
+      "future_split_products": {
+        "parent_before": 1.196,
+        "parent_after": 1
+      },
+      "ordinary_cash_dividend_overlap": false
+    }
+  ],
+  "sources": {
+    "CARR": {
+      "source_price": "data\\raw\\corporate_actions\\CARR_full_chart.json",
+      "split_inventory": "data\\raw\\corporate_actions\\CARR_full_chart.json",
+      "crosscheck_max_relative_close_difference": 0.0
+    },
+    "GE": {
+      "source_price": "data\\raw\\yahoo_prices\\GE_daily_2015-10-01_2026-08-31.json",
+      "split_inventory": "data\\raw\\corporate_actions\\GE_full_chart.json",
+      "crosscheck_max_relative_close_difference": 0.0
+    },
+    "GEHC": {
+      "source_price": "data\\raw\\corporate_actions\\GEHC_full_chart.json",
+      "split_inventory": "data\\raw\\corporate_actions\\GEHC_full_chart.json",
+      "crosscheck_max_relative_close_difference": 0.0
+    },
+    "GEV": {
+      "source_price": "data\\raw\\corporate_actions\\GEV_full_chart.json",
+      "split_inventory": "data\\raw\\corporate_actions\\GEV_full_chart.json",
+      "crosscheck_max_relative_close_difference": 0.0
+    },
+    "IBM": {
+      "source_price": "data\\raw\\yahoo_prices\\IBM_daily_2015-10-01_2026-08-31.json",
+      "split_inventory": "data\\raw\\corporate_actions\\IBM_full_chart.json",
+      "crosscheck_max_relative_close_difference": 0.0
+    },
+    "KD": {
+      "source_price": "data\\raw\\corporate_actions\\KD_full_chart.json",
+      "split_inventory": "data\\raw\\corporate_actions\\KD_full_chart.json",
+      "crosscheck_max_relative_close_difference": 0.0
+    },
+    "MMM": {
+      "source_price": "data\\raw\\yahoo_prices\\MMM_daily_2015-10-01_2026-08-31.json",
+      "split_inventory": "data\\raw\\corporate_actions\\MMM_full_chart.json",
+      "crosscheck_max_relative_close_difference": 0.0
+    },
+    "MRK": {
+      "source_price": "data\\raw\\yahoo_prices\\MRK_daily_2015-10-01_2026-08-31.json",
+      "split_inventory": "data\\raw\\corporate_actions\\MRK_full_chart.json",
+      "crosscheck_max_relative_close_difference": 0.0
+    },
+    "OGN": {
+      "source_price": "data\\raw\\corporate_actions\\OGN_full_chart.json",
+      "split_inventory": "data\\raw\\corporate_actions\\OGN_full_chart.json",
+      "crosscheck_max_relative_close_difference": 0.0
+    },
+    "OTIS": {
+      "source_price": "data\\raw\\corporate_actions\\OTIS_full_chart.json",
+      "split_inventory": "data\\raw\\corporate_actions\\OTIS_full_chart.json",
+      "crosscheck_max_relative_close_difference": 0.0
+    },
+    "PFE": {
+      "source_price": "data\\raw\\yahoo_prices\\PFE_daily_2015-10-01_2026-08-31.json",
+      "split_inventory": "data\\raw\\corporate_actions\\PFE_full_chart.json",
+      "crosscheck_max_relative_close_difference": 0.0
+    },
+    "RTX": {
+      "source_price": "data\\raw\\yahoo_prices\\RTX_daily_2015-10-01_2026-08-31.json",
+      "split_inventory": "data\\raw\\corporate_actions\\RTX_full_chart.json",
+      "crosscheck_max_relative_close_difference": 0.0
+    },
+    "SOLV": {
+      "source_price": "data\\raw\\corporate_actions\\SOLV_full_chart.json",
+      "split_inventory": "data\\raw\\corporate_actions\\SOLV_full_chart.json",
+      "crosscheck_max_relative_close_difference": 0.0
+    },
+    "VTRS": {
+      "source_price": "data\\raw\\corporate_actions\\VTRS_full_chart.json",
+      "split_inventory": "data\\raw\\corporate_actions\\VTRS_full_chart.json",
+      "crosscheck_max_relative_close_difference": 0.0
+    }
+  }
+}

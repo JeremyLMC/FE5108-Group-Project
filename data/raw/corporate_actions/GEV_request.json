@@ -1,0 +1,13 @@
+{
+  "symbol": "GEV",
+  "endpoint": "https://query1.finance.yahoo.com/v8/finance/chart/GEV",
+  "params": {
+    "period1": 1443657600,
+    "period2": 1791331200,
+    "interval": "1d",
+    "events": "div,splits",
+    "includeAdjustedClose": "true"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-10-06T10:07:13.946616+08:00"
+}

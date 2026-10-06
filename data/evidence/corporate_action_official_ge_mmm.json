@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-06",
+  "scope": "Official corporate-action terms relevant to a historical DJIA-member return continuation, November 2015-August 2026; GE and MMM only.",
+  "status": "official_event_terms_verified; price_and_return_implementation_not_tested",
+  "date_convention": "All action and trading dates are US market dates. Local times use America/New_York.",
+  "sources": [
+    {
+      "id": "ge_reverse_split_release",
+      "type": "issuer_official_press_release",
+      "url": "https://www.ge.com/news/press-releases/ge-completes-one-for-eight-reverse-stock-split",
+      "title": "GE Completes One-for-Eight Reverse Stock Split",
+      "published_on": "2021-07-30",
+      "support_excerpt": "GE common stock will begin trading on a split-adjusted basis when the New York Stock Exchange opens on August 2, 2021",
+      "excerpt_word_count": 21,
+      "support_locator": "Press release paragraphs 1-4; browser lines 10-14."
+    },
+    {
+      "id": "ge_shareholder_services",
+      "type": "issuer_official_shareholder_information",
+      "url": "https://www.ge.com/investor-relations/shareholder-services",
+      "title": "GE Shareholder Services: Reverse Stock Split Summary",
+      "support_excerpt": "after the close of trading on July 30, 2021",
+      "excerpt_word_count": 9,
+      "support_locator": "Reverse Stock Split / Effective Date and Exchange Ratio; browser lines 46-48."
+    },
+    {
+      "id": "ge_8k_20230104",
+      "type": "issuer_linked_sec_filing",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000040545/c44e6745-bc3f-4e24-9f3c-8e2550ccf4cc.pdf",
+      "official_index_url": "https://www.ge.com/investor-relations/spinoff-resources",
+      "accession_number": "0001193125-23-001157",
+      "title": "General Electric Company Form 8-K filed January 4, 2023",
+      "published_on": "2023-01-04",
+      "support_excerpt": "On January 3, 2023 (the “Distribution Date”) at 5:00 p.m. New York City time",
+      "excerpt_word_count": 14,
+      "support_locator": "Physical PDF p.2, Introductory Note; browser lines 45-51."
+    },
+    {
+      "id": "gehc_final_information_statement",
+      "type": "sec_filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1932393/000119312522301053/d432941dex991.htm",
+      "title": "GE HealthCare Final Information Statement, December 8, 2022",
+      "published_on": "2022-12-08",
+      "support_excerpt": "Shares of GE common stock that trade on the regular-way market will trade with an entitlement",
+      "excerpt_word_count": 16,
+      "support_locator": "The Spin-Off / Trading Prior to the Distribution Date."
+    },
+    {
+      "id": "ge_8k_20240402",
+      "type": "issuer_linked_sec_filing",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000040545/b372f5d6-978f-4305-9157-e94fe2fb6dec.pdf",
+      "official_index_url": "https://www.ge.com/investor-relations/spinoff-resources",
+      "accession_number": "0001193125-24-084038",
+      "title": "General Electric Company Form 8-K filed April 2, 2024",
+      "published_on": "2024-04-02",
+      "support_excerpt": "On April 2, 2024 (the “Distribution Date”) at 12:10 a.m. Eastern Time",
+      "excerpt_word_count": 12,
+      "support_locator": "Physical PDF p.2, Introductory Note; browser lines 46-52."
+    },
+    {
+      "id": "ge_gev_approval_release",
+      "type": "issuer_official_press_release",
+      "url": "https://www.ge.com/news/press-releases/ge-board-of-directors-approves-spin-off-of-ge-vernova-ge-vernova-and-ge-aerospace-to",
+      "title": "GE Board of Directors Approves Spin-Off of GE Vernova; GE Vernova and GE Aerospace to Launch April 2, 2024",
+      "published_on": "2024-02-29",
+      "support_excerpt": "Beginning on March 27, 2024 and continuing through April 1, 2024",
+      "excerpt_word_count": 11,
+      "support_locator": "When-Issued Trading to Begin, browser lines 22-23; ordinary GE with entitlement and auxiliary GE WI without entitlement."
+    },
+    {
+      "id": "mmm_completion_release",
+      "type": "issuer_official_press_release",
+      "url": "https://investors.3m.com/news-events/press-releases/detail/1835/3m-completes-spin-off-of-solventum",
+      "title": "3M Completes Spin-off of Solventum",
+      "published_on": "2024-04-01",
+      "support_excerpt": "one share of Solventum common stock for every four shares of 3M common stock",
+      "excerpt_word_count": 14,
+      "support_locator": "Distribution paragraph; browser lines 45-47."
+    },
+    {
+      "id": "mmm_form8937",
+      "type": "issuer_official_tax_action_document",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_ceb7e864243068837370b1c6bd26c5f1/3m/db/3266/30881/file/Form_8937_SOLVSpin.pdf",
+      "official_index_url": "https://investors.3m.com/resources/health-care-spin-off",
+      "title": "3M Form 8937: Solventum Spin-off",
+      "support_excerpt": "On April 1, 2024, at 3:30 a.m. EDT",
+      "excerpt_word_count": 8,
+      "support_locator": "Physical PDF p.3, Part II Line 14; browser lines 82-84; completed distribution, not an anticipated timetable."
+    },
+    {
+      "id": "mmm_approval_release_sec",
+      "type": "sec_filing_exhibit_issuer_press_release",
+      "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674024000023/pressrelease3-8x24.htm",
+      "title": "3M Board of Directors Approves Spin-off of Solventum",
+      "published_on": "2024-03-08",
+      "support_excerpt": "Beginning on March 26, 2024 and continuing through March 28, 2024",
+      "excerpt_word_count": 11,
+      "support_locator": "Trading Details; browser lines 17-18; ordinary MMM with entitlement and auxiliary MMM WI without entitlement."
+    },
+    {
+      "id": "solv_2024_annual_report",
+      "type": "issuer_linked_sec_filing",
+      "url": "https://investors.solventum.com/financials/sec-filings/content/0001964738-25-000040/0001964738-25-000040.pdf",
+      "title": "Solventum 2024 Annual Report",
+      "published_on": "2025-03-21",
+      "support_excerpt": "April 1, 2024, the first day of “regular way” trading",
+      "excerpt_word_count": 10,
+      "support_locator": "Item 5 / Stock Performance Graph, printed p.42; physical page is not independently recorded."
+    }
+  ],
+  "events": [
+    {
+      "event_id": "GE_REVERSE_SPLIT_2021",
+      "original_issuer": "General Electric Company",
+      "original_ticker": "GE",
+      "action_type": "reverse_stock_split",
+      "main_successor_issuer": "General Electric Company",
+      "main_successor_ticker": "GE",
+      "ratio": {
+        "new_main_shares": 1,
+        "old_main_shares": 8,
+        "new_main_shares_per_old_main_share": 0.125
+      },
+      "effective": {
+        "date": "2021-07-30",
+        "session": "after_market_close",
+        "exact_time": null,
+        "status": "verified_completed",
+        "source_ids": [
+          "ge_shareholder_services",
+          "ge_reverse_split_release"
+        ]
+      },
+      "split_adjusted_trading_start": {
+        "date": "2021-08-02",
+        "status": "verified",
+        "source_ids": [
+          "ge_reverse_split_release",
+          "ge_shareholder_services"
+        ]
+      },
+      "ordinary_ticker_ex_date": {
+        "date": "2021-08-02",
+        "status": "derived_from_verified_split_adjusted_trading_start",
+        "note": "No separate exchange ex-date notice was used; issuer explicitly confirms start of split-adjusted trading."
+      },
+      "cash_in_lieu_of_fractional_shares": true,
+      "implementation_note": "If a vendor Close series is expressed throughout in post-August-2-2021 share units solely for this reverse split, actual pre-split price per old share equals that Close divided by 8; a recorded post-split share equals eight pre-split shares. This conditional transformation does not establish what Yahoo Close currently contains, nor account for other adjustments.",
+      "limitations": [
+        "No vendor prices, split event payload, dividend amounts or return reconstruction were checked.",
+        "Do not apply the split a second time to an already split-adjusted total-return series."
+      ]
+    },
+    {
+      "event_id": "GE_GEHC_SPINOFF_2023",
+      "original_issuer": "General Electric Company",
+      "original_ticker": "GE",
+      "action_type": "mandatory_pro_rata_spin_off_distribution",
+      "main_successor_issuer": "General Electric Company",
+      "main_successor_ticker": "GE",
+      "distributed_issuer": "GE HealthCare Technologies Inc.",
+      "distributed_ticker": "GEHC",
+      "ratio": {
+        "child_shares": 1,
+        "main_shares": 3,
+        "child_shares_per_main_share": 0.3333333333333333,
+        "main_shares_after_per_main_share_before": 1
+      },
+      "record_date": "2022-12-16",
+      "effective": {
+        "date": "2023-01-03",
+        "time": "17:00:00",
+        "timezone": "America/New_York",
+        "session": "after_market_close",
+        "status": "verified_completed",
+        "source_ids": [
+          "ge_8k_20230104"
+        ]
+      },
+      "child_regular_way_trading_start": {
+        "date": "2023-01-04",
+        "status": "verified_began_trading",
+        "source_ids": [
+          "ge_8k_20230104"
+        ]
+      },
+      "ordinary_ticker_ex_distribution_date": {
+        "date": "2023-01-04",
+        "status": "derived_from_verified_completion_and_trading_dates",
+        "source_ids": [
+          "ge_8k_20230104",
+          "gehc_final_information_statement"
+        ],
+        "note": "Ordinary GE regular-way shares carry the child entitlement through the January 3 distribution date, with distribution completed at 17:00 and GEHC trading starting January 4. This is a derived ordinary-market adjustment date; no standalone issuer/SEC exchange ex-date declaration was located."
+      },
+      "auxiliary_market_note": "A separate ex-distribution market existed before the distribution, while ordinary GE regular-way trading retained the entitlement. Its earlier date must not be substituted for the ordinary GE series adjustment date.",
+      "automatic_distribution": true,
+      "cash_in_lieu_of_fractional_shares": true,
+      "completion_status": "verified",
+      "limitations": [
+        "Official action terms alone do not validate Yahoo Adj Close's treatment of the distribution.",
+        "To use the main-line reinvestment policy, value the 1/3 GEHC distribution on the selected date and reinvest according to the documented policy; avoid double-counting it if vendor adjustments already include the distribution."
+      ]
+    },
+    {
+      "event_id": "GE_GEV_SPINOFF_2024",
+      "original_issuer": "General Electric Company",
+      "original_ticker": "GE",
+      "action_type": "mandatory_pro_rata_spin_off_distribution",
+      "main_successor_issuer": "General Electric Company, operating as GE Aerospace",
+      "main_successor_ticker": "GE",
+      "distributed_issuer": "GE Vernova Inc.",
+      "distributed_ticker": "GEV",
+      "ratio": {
+        "child_shares": 1,
+        "main_shares": 4,
+        "child_shares_per_main_share": 0.25,
+        "main_shares_after_per_main_share_before": 1
+      },
+      "record_date": "2024-03-19",
+      "effective": {
+        "date": "2024-04-02",
+        "time": "00:10:00",
+        "timezone": "America/New_York",
+        "session": "before_market_open",
+        "status": "verified_completed",
+        "source_ids": [
+          "ge_8k_20240402"
+        ]
+      },
+      "child_regular_way_trading_start": {
+        "date": "2024-04-02",
+        "status": "verified_began_trading",
+        "source_ids": [
+          "ge_8k_20240402",
+          "ge_gev_approval_release"
+        ]
+      },
+      "ordinary_ticker_ex_distribution_date": {
+        "date": "2024-04-02",
+        "status": "derived_from_verified_completion_and_trading_dates",
+        "source_ids": [
+          "ge_8k_20240402",
+          "ge_gev_approval_release"
+        ],
+        "note": "The issuer distinguishes regular-way GE with entitlement through April 1 from auxiliary GE WI without entitlement. April 2 is the derived ordinary-market adjustment date; no standalone issuer/SEC exchange ex-date declaration was located."
+      },
+      "auxiliary_markets": {
+        "child_when_issued_symbol": "GEV WI",
+        "parent_ex_distribution_symbol": "GE WI",
+        "announced_first_date": "2024-03-27",
+        "announced_last_date": "2024-04-01",
+        "status": "issuer_announced_schedule",
+        "source_ids": [
+          "ge_gev_approval_release"
+        ]
+      },
+      "automatic_distribution": true,
+      "cash_in_lieu_of_fractional_shares": true,
+      "completion_status": "verified",
+      "limitations": [
+        "GEV is a distributed child; the main GE column remains GE Aerospace rather than switching to GEV.",
+        "No prices or vendor-adjustment behavior were checked; distribution valuation/reinvestment remains a calculation policy to verify."
+      ]
+    },
+    {
+      "event_id": "MMM_SOLV_SPINOFF_2024",
+      "original_issuer": "3M Company",
+      "original_ticker": "MMM",
+      "action_type": "mandatory_pro_rata_spin_off_distribution",
+      "main_successor_issuer": "3M Company",
+      "main_successor_ticker": "MMM",
+      "distributed_issuer": "Solventum Corporation",
+      "distributed_ticker": "SOLV",
+      "ratio": {
+        "child_shares": 1,
+        "main_shares": 4,
+        "child_shares_per_main_share": 0.25,
+        "main_shares_after_per_main_share_before": 1
+      },
+      "record_date": "2024-03-18",
+      "effective": {
+        "date": "2024-04-01",
+        "time": "03:30:00",
+        "timezone": "America/New_York",
+        "session": "before_market_open",
+        "status": "verified_completed",
+        "source_ids": [
+          "mmm_form8937",
+          "mmm_completion_release"
+        ]
+      },
+      "child_regular_way_trading_start": {
+        "date": "2024-04-01",
+        "status": "verified_regular_way_start_by_retrospective_annual_report",
+        "source_ids": [
+          "solv_2024_annual_report",
+          "mmm_approval_release_sec"
+        ]
+      },
+      "ordinary_ticker_ex_distribution_date": {
+        "date": "2024-04-01",
+        "status": "derived_from_verified_completion_and_trading_dates",
+        "source_ids": [
+          "mmm_form8937",
+          "mmm_approval_release_sec",
+          "solv_2024_annual_report"
+        ],
+        "note": "Ordinary MMM with entitlement was announced through March 28, the last pre-distribution trading day; March 29 was not a regular US market trading day. Distribution occurred April 1 before market open. This is a derived ordinary-market adjustment date; no standalone issuer/SEC exchange ex-date declaration was located."
+      },
+      "auxiliary_markets": {
+        "child_when_issued_symbol": "SOLV WI",
+        "parent_ex_distribution_symbol": "MMM WI",
+        "announced_first_date": "2024-03-26",
+        "announced_last_date": "2024-03-28",
+        "status": "issuer_announced_schedule",
+        "source_ids": [
+          "mmm_approval_release_sec"
+        ]
+      },
+      "automatic_distribution": true,
+      "cash_in_lieu_of_fractional_shares": true,
+      "completion_status": "verified",
+      "limitations": [
+        "3M's retained 19.9% company stake does not alter the shareholder's 1-for-4 distributed-child ratio.",
+        "No prices or vendor-adjustment behavior were checked; value of distributed SOLV and reinvestment timing remain to be tested."
+      ]
+    }
+  ],
+  "global_limitations": [
+    "This file confirms only four specified corporate-action terms; it is not a complete GE/MMM action inventory.",
+    "Ordinary-ticker ex-distribution dates are explicitly marked as derived from issuer/SEC entitlement and completion/trading evidence, rather than independent exchange ex-date announcements.",
+    "Issuer-linked SEC PDFs and 3M's issuer-linked Form 8937 are hosted on official document CDNs linked from the corresponding issuer investor pages.",
+    "Dividend, split and spin-off adjustment behavior in Yahoo Close/Adj Close must be diagnosed from the actual fetched series before manual reconstruction. No market data were fetched, ingested or changed in this task.",
+    "No formal report or accepted main-stage dataset was changed."
+  ]
+}

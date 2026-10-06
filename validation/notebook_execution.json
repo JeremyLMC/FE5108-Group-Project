@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "executed_code_cells": 7,
+  "error_outputs": 0,
+  "python_version": "3.10.11",
+  "entrypoint_ran": "tools/reproduce_stage1.py",
+  "working_directory": "notebooks",
+  "report_modified": false
+}

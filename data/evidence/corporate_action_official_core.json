@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-06T10:23:10.196467+08:00",
+  "events": [
+    {
+      "event_id": "UTX_RTX_20200403",
+      "original_member": "UTX",
+      "main_symbol": "RTX",
+      "distribution_date": "2020-04-03",
+      "economic_ex_date": "2020-04-03",
+      "main_shares_per_old_share": 1.0,
+      "children": [
+        {
+          "symbol": "CARR",
+          "shares_per_old_share": 1.0
+        },
+        {
+          "symbol": "OTIS",
+          "shares_per_old_share": 0.5
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/101829/000114036120008397/nc10010681x2_8k.htm",
+          "support": "UTC distributed Carrier and Otis and then renamed its continuing common stock RTX."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1783180/000178318021000011/carr-20201231.htm",
+          "support": "Distribution effective 2020-04-03 00:01 EDT; one Carrier share per UTC share."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1781335/000114036120007885/nc10010458x4_ex99-1.htm",
+          "support": "Otis began regular-way trading 2020-04-03; one-half Otis share per UTC share."
+        }
+      ]
+    },
+    {
+      "event_id": "PFE_VTRS_20201117",
+      "original_member": "PFE",
+      "main_symbol": "PFE",
+      "distribution_date": "2020-11-16",
+      "economic_ex_date": "2020-11-17",
+      "main_shares_per_old_share": 1.0,
+      "children": [
+        {
+          "symbol": "VTRS",
+          "shares_per_old_share": 0.124079
+        }
+      ],
+      "ratio_precision_note": "Official announcement gives approximately 0.124079; use this disclosed six-decimal ratio.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/78003/000119312520298356/d72492d8k.htm",
+          "support": "Upjohn distribution completed 2020-11-16; approximately 0.124079 Viatris share per Pfizer share."
+        },
+        {
+          "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-transaction-combine-its-upjohn-business",
+          "support": "Viatris regular trading starts 2020-11-17; Pfizer shareholders retain their Pfizer shares."
+        },
+        {
+          "url": "https://s206.q4cdn.com/795948973/files/doc_downloads/viatris/Distribution-Tax-Basis-Information.pdf",
+          "support": "Regular-way Pfizer traded with Viatris entitlement through the close of the distribution date, 2020-11-16."
+        }
+      ]
+    },
+    {
+      "event_id": "MRK_OGN_20210603",
+      "original_member": "MRK",
+      "main_symbol": "MRK",
+      "distribution_date": "2021-06-02",
+      "economic_ex_date": "2021-06-03",
+      "main_shares_per_old_share": 1.0,
+      "children": [
+        {
+          "symbol": "OGN",
+          "shares_per_old_share": 0.1
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.merck.com/news/merck-declares-record-date-and-dividend-for-the-organon-co-spinoff/",
+          "support": "Merck regular-way shares retain Organon entitlement through 2021-06-02; regular-way ex-distribution trading starts 2021-06-03."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1821825/000119312521180652/d49288d8k.htm",
+          "support": "Completed distribution gives one tenth Organon share per Merck share; regular-way Organon starts 2021-06-03."
+        }
+      ]
+    },
+    {
+      "event_id": "IBM_KD_20211104",
+      "original_member": "IBM",
+      "main_symbol": "IBM",
+      "distribution_date": "2021-11-03",
+      "economic_ex_date": "2021-11-04",
+      "main_shares_per_old_share": 1.0,
+      "children": [
+        {
+          "symbol": "KD",
+          "shares_per_old_share": 0.2
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://newsroom.ibm.com/2021-11-03-IBM-Completes-the-Separation-of-Kyndryl",
+          "support": "Distribution of one Kyndryl share per five IBM shares; Kyndryl regular-way trading begins 2021-11-04."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1867072/000155837021016281/kd-20210930x10q.htm",
+          "support": "Separation completed 2021-11-03; one Kyndryl per five IBM; independent exchange trading begins 2021-11-04."
+        },
+        {
+          "url": "https://kyndryl.gcs-web.com/shareholder-resources/spinoff-information",
+          "support": "Official tax-basis example uses 2021-11-04 closes: IBM 120.85 dollars and Kyndryl 26.38 dollars."
+        }
+      ]
+    },
+    {
+      "event_id": "GE_GEHC_20230104",
+      "original_member": "GE",
+      "main_symbol": "GE",
+      "distribution_date": "2023-01-03",
+      "economic_ex_date": "2023-01-04",
+      "main_shares_per_old_share": 1.0,
+      "children": [
+        {
+          "symbol": "GEHC",
+          "shares_per_old_share": 0.3333333333333333
+        }
+      ],
+      "official_source_file": "data/evidence/corporate_action_official_ge_mmm.json",
+      "sources": [
+        {
+          "id": "ge_8k_20230104",
+          "type": "issuer_linked_sec_filing",
+          "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000040545/c44e6745-bc3f-4e24-9f3c-8e2550ccf4cc.pdf",
+          "official_index_url": "https://www.ge.com/investor-relations/spinoff-resources",
+          "accession_number": "0001193125-23-001157",
+          "title": "General Electric Company Form 8-K filed January 4, 2023",
+          "published_on": "2023-01-04",
+          "support_excerpt": "On January 3, 2023 (the “Distribution Date”) at 5:00 p.m. New York City time",
+          "excerpt_word_count": 14,
+          "support_locator": "Physical PDF p.2, Introductory Note; browser lines 45-51."
+        },
+        {
+          "id": "gehc_final_information_statement",
+          "type": "sec_filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1932393/000119312522301053/d432941dex991.htm",
+          "title": "GE HealthCare Final Information Statement, December 8, 2022",
+          "published_on": "2022-12-08",
+          "support_excerpt": "Shares of GE common stock that trade on the regular-way market will trade with an entitlement",
+          "excerpt_word_count": 16,
+          "support_locator": "The Spin-Off / Trading Prior to the Distribution Date."
+        }
+      ],
+      "ex_date_evidence_status": "derived_from_verified_completion_and_trading_dates"
+    },
+    {
+      "event_id": "GE_GEV_20240402",
+      "original_member": "GE",
+      "main_symbol": "GE",
+      "distribution_date": "2024-04-02",
+      "economic_ex_date": "2024-04-02",
+      "main_shares_per_old_share": 1.0,
+      "children": [
+        {
+          "symbol": "GEV",
+          "shares_per_old_share": 0.25
+        }
+      ],
+      "official_source_file": "data/evidence/corporate_action_official_ge_mmm.json",
+      "sources": [
+        {
+          "id": "ge_8k_20240402",
+          "type": "issuer_linked_sec_filing",
+          "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000040545/b372f5d6-978f-4305-9157-e94fe2fb6dec.pdf",
+          "official_index_url": "https://www.ge.com/investor-relations/spinoff-resources",
+          "accession_number": "0001193125-24-084038",
+          "title": "General Electric Company Form 8-K filed April 2, 2024",
+          "published_on": "2024-04-02",
+          "support_excerpt": "On April 2, 2024 (the “Distribution Date”) at 12:10 a.m. Eastern Time",
+          "excerpt_word_count": 12,
+          "support_locator": "Physical PDF p.2, Introductory Note; browser lines 46-52."
+        },
+        {
+          "id": "ge_gev_approval_release",
+          "type": "issuer_official_press_release",
+          "url": "https://www.ge.com/news/press-releases/ge-board-of-directors-approves-spin-off-of-ge-vernova-ge-vernova-and-ge-aerospace-to",
+          "title": "GE Board of Directors Approves Spin-Off of GE Vernova; GE Vernova and GE Aerospace to Launch April 2, 2024",
+          "published_on": "2024-02-29",
+          "support_excerpt": "Beginning on March 27, 2024 and continuing through April 1, 2024",
+          "excerpt_word_count": 11,
+          "support_locator": "When-Issued Trading to Begin, browser lines 22-23; ordinary GE with entitlement and auxiliary GE WI without entitlement."
+        }
+      ],
+      "ex_date_evidence_status": "derived_from_verified_completion_and_trading_dates"
+    },
+    {
+      "event_id": "MMM_SOLV_20240401",
+      "original_member": "MMM",
+      "main_symbol": "MMM",
+      "distribution_date": "2024-04-01",
+      "economic_ex_date": "2024-04-01",
+      "main_shares_per_old_share": 1.0,
+      "children": [
+        {
+          "symbol": "SOLV",
+          "shares_per_old_share": 0.25
+        }
+      ],
+      "official_source_file": "data/evidence/corporate_action_official_ge_mmm.json",
+      "sources": [
+        {
+          "id": "mmm_completion_release",
+          "type": "issuer_official_press_release",
+          "url": "https://investors.3m.com/news-events/press-releases/detail/1835/3m-completes-spin-off-of-solventum",
+          "title": "3M Completes Spin-off of Solventum",
+          "published_on": "2024-04-01",
+          "support_excerpt": "one share of Solventum common stock for every four shares of 3M common stock",
+          "excerpt_word_count": 14,
+          "support_locator": "Distribution paragraph; browser lines 45-47."
+        },
+        {
+          "id": "mmm_form8937",
+          "type": "issuer_official_tax_action_document",
+          "url": "https://d1io3yog0oux5.cloudfront.net/_ceb7e864243068837370b1c6bd26c5f1/3m/db/3266/30881/file/Form_8937_SOLVSpin.pdf",
+          "official_index_url": "https://investors.3m.com/resources/health-care-spin-off",
+          "title": "3M Form 8937: Solventum Spin-off",
+          "support_excerpt": "On April 1, 2024, at 3:30 a.m. EDT",
+          "excerpt_word_count": 8,
+          "support_locator": "Physical PDF p.3, Part II Line 14; browser lines 82-84; completed distribution, not an anticipated timetable."
+        },
+        {
+          "id": "mmm_approval_release_sec",
+          "type": "sec_filing_exhibit_issuer_press_release",
+          "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674024000023/pressrelease3-8x24.htm",
+          "title": "3M Board of Directors Approves Spin-off of Solventum",
+          "published_on": "2024-03-08",
+          "support_excerpt": "Beginning on March 26, 2024 and continuing through March 28, 2024",
+          "excerpt_word_count": 11,
+          "support_locator": "Trading Details; browser lines 17-18; ordinary MMM with entitlement and auxiliary MMM WI without entitlement."
+        },
+        {
+          "id": "solv_2024_annual_report",
+          "type": "issuer_linked_sec_filing",
+          "url": "https://investors.solventum.com/financials/sec-filings/content/0001964738-25-000040/0001964738-25-000040.pdf",
+          "title": "Solventum 2024 Annual Report",
+          "published_on": "2025-03-21",
+          "support_excerpt": "April 1, 2024, the first day of “regular way” trading",
+          "excerpt_word_count": 10,
+          "support_locator": "Item 5 / Stock Performance Graph, printed p.42; physical page is not independently recorded."
+        }
+      ],
+      "ex_date_evidence_status": "derived_from_verified_completion_and_trading_dates"
+    }
+  ],
+  "method": "Mandatory share distributions valued at observed-date closing quotes; proceeds immediately reinvested into main continuation at that close.",
+  "ge_mmm_official_source_file": "data/evidence/corporate_action_official_ge_mmm.json"
+}

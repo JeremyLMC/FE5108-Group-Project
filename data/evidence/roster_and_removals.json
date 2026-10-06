@@ -1,0 +1,650 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-10-06",
+  "base_date": "2015-10-31",
+  "authorized_returns_window": {
+    "first_month": "2015-11",
+    "last_month": "2026-09",
+    "expected_month_count": 131
+  },
+  "purpose": "Official-source membership and index-deletion metadata for the fixed 2015 Dow 30 cohort; not a price/market-cap acceptance receipt.",
+  "roster": [
+    {
+      "original_ticker": "MMM",
+      "company_name_at_base": "3M Co.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "AXP",
+      "company_name_at_base": "American Express Co.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "AAPL",
+      "company_name_at_base": "Apple Inc.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "BA",
+      "company_name_at_base": "Boeing Co.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "CAT",
+      "company_name_at_base": "Caterpillar Inc.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "CVX",
+      "company_name_at_base": "Chevron Corp.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "CSCO",
+      "company_name_at_base": "Cisco Systems Inc.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "KO",
+      "company_name_at_base": "Coca-Cola Co.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "DD",
+      "company_name_at_base": "E. I. du Pont de Nemours & Co. (Historical EID)",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": "2017-09-01",
+      "index_replacement": "DWDP",
+      "later_index_removal_source_ids": [
+        2
+      ],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "XOM",
+      "company_name_at_base": "Exxon Mobil Corp.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": "2020-08-31",
+      "index_replacement": "CRM",
+      "later_index_removal_source_ids": [
+        5
+      ],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "GE",
+      "company_name_at_base": "General Electric Co.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": "2018-06-26",
+      "index_replacement": "WBA",
+      "later_index_removal_source_ids": [
+        3
+      ],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "GS",
+      "company_name_at_base": "Goldman Sachs Group Inc.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "HD",
+      "company_name_at_base": "Home Depot Inc.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "INTC",
+      "company_name_at_base": "Intel Corp.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": "2024-11-08",
+      "index_replacement": "NVDA",
+      "later_index_removal_source_ids": [
+        7
+      ],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "IBM",
+      "company_name_at_base": "International Business Machines Corp.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "JNJ",
+      "company_name_at_base": "Johnson & Johnson",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "JPM",
+      "company_name_at_base": "JPMorgan Chase & Co.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "MCD",
+      "company_name_at_base": "McDonald’s Corp.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "MRK",
+      "company_name_at_base": "Merck & Co. Inc.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "MSFT",
+      "company_name_at_base": "Microsoft Corp.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "NKE",
+      "company_name_at_base": "NIKE Inc. Class B",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "PFE",
+      "company_name_at_base": "Pfizer Inc.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": "2020-08-31",
+      "index_replacement": "AMGN",
+      "later_index_removal_source_ids": [
+        5
+      ],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "PG",
+      "company_name_at_base": "Procter & Gamble Co.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "TRV",
+      "company_name_at_base": "Travelers Companies Inc.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "UTX",
+      "company_name_at_base": "United Technologies Corp.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": "2020-08-31",
+      "index_replacement": "HON",
+      "later_index_removal_source_ids": [
+        5
+      ],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "UNH",
+      "company_name_at_base": "UnitedHealth Group Inc.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "VZ",
+      "company_name_at_base": "Verizon Communications Inc.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": "2026-06-29",
+      "index_replacement": "GOOGL",
+      "later_index_removal_source_ids": [
+        8
+      ],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "V",
+      "company_name_at_base": "Visa Inc. Class A",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "WMT",
+      "company_name_at_base": "Wal-Mart Stores Inc.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    },
+    {
+      "original_ticker": "DIS",
+      "company_name_at_base": "Walt Disney Co.",
+      "base_date": "2015-10-31",
+      "roster_source_id": 1,
+      "later_index_removal_date": null,
+      "index_replacement": null,
+      "later_index_removal_source_ids": [],
+      "cohort_rule": "Keep this original shareholder lineage even after index removal; do not substitute the index replacement."
+    }
+  ],
+  "index_removal_events": [
+    {
+      "effective_date": "2017-09-01",
+      "effective_time": "before_market_open",
+      "deleted_ticker": "DD",
+      "added_ticker": "DWDP",
+      "maps_to_original_2015_member": true,
+      "original_ticker": "DD",
+      "category": "merger_replacement",
+      "reason_summary": "Dow Chemical and historical DuPont merged into DowDuPont; original DD shareholders receive merger consideration, not a bankruptcy wipeout.",
+      "source_ids": [
+        2
+      ]
+    },
+    {
+      "effective_date": "2018-06-26",
+      "effective_time": "before_market_open",
+      "deleted_ticker": "GE",
+      "added_ticker": "WBA",
+      "maps_to_original_2015_member": true,
+      "original_ticker": "GE",
+      "category": "index_deletion",
+      "reason_summary": "S&P cited evolving economic and sector representation and the small price weight of GE. Index deletion is not an exchange delisting.",
+      "source_ids": [
+        3
+      ]
+    },
+    {
+      "effective_date": "2019-04-02",
+      "effective_time": "before_market_open",
+      "deleted_ticker": "DWDP",
+      "added_ticker": "DOW",
+      "maps_to_original_2015_member": false,
+      "original_ticker": "DD",
+      "category": "spinoff_index_replacement",
+      "reason_summary": "DowDuPont split into three companies; the index selected the new Dow for Materials exposure. DWDP is the merger successor of original DD, so track in the DD lineage, not as a new original asset.",
+      "source_ids": [
+        4
+      ]
+    },
+    {
+      "effective_date": "2020-08-31",
+      "effective_time": "before_market_open",
+      "deleted_ticker": "XOM",
+      "added_ticker": "CRM",
+      "maps_to_original_2015_member": true,
+      "original_ticker": "XOM",
+      "category": "index_deletion",
+      "reason_summary": "Apple 4-for-1 split reduced Information Technology price weight; replacements also diversify economic and sector exposure.",
+      "source_ids": [
+        5
+      ]
+    },
+    {
+      "effective_date": "2020-08-31",
+      "effective_time": "before_market_open",
+      "deleted_ticker": "PFE",
+      "added_ticker": "AMGN",
+      "maps_to_original_2015_member": true,
+      "original_ticker": "PFE",
+      "category": "index_deletion",
+      "reason_summary": "Part of the same three-constituent adjustment prompted by Apple split and broader representation.",
+      "source_ids": [
+        5
+      ]
+    },
+    {
+      "effective_date": "2020-08-31",
+      "effective_time": "before_market_open",
+      "deleted_ticker": "RTX",
+      "added_ticker": "HON",
+      "maps_to_original_2015_member": true,
+      "original_ticker": "UTX",
+      "category": "index_deletion",
+      "reason_summary": "RTX is original UTX after April 2020 name/ticker change. Part of the same three-constituent adjustment.",
+      "source_ids": [
+        5
+      ]
+    },
+    {
+      "effective_date": "2024-02-26",
+      "effective_time": "before_market_open",
+      "deleted_ticker": "WBA",
+      "added_ticker": "AMZN",
+      "maps_to_original_2015_member": false,
+      "original_ticker": null,
+      "category": "index_deletion",
+      "reason_summary": "Walmart 3-for-1 split reduced its price weight; Amazon increased retail and broader business exposure. WBA entered after the 2015 base date and is not an original asset.",
+      "source_ids": [
+        6
+      ]
+    },
+    {
+      "effective_date": "2024-11-08",
+      "effective_time": "before_market_open",
+      "deleted_ticker": "INTC",
+      "added_ticker": "NVDA",
+      "maps_to_original_2015_member": true,
+      "original_ticker": "INTC",
+      "category": "index_deletion",
+      "reason_summary": "More representative semiconductor exposure; persistently low-priced stocks have small price weights.",
+      "source_ids": [
+        7
+      ]
+    },
+    {
+      "effective_date": "2024-11-08",
+      "effective_time": "before_market_open",
+      "deleted_ticker": "DOW",
+      "added_ticker": "SHW",
+      "maps_to_original_2015_member": false,
+      "original_ticker": "DD",
+      "category": "index_deletion",
+      "reason_summary": "More representative Materials exposure; Dow was the smallest DJIA member by company market capitalization. DOW entered in 2019, but is a DD shareholder-lineage descendant.",
+      "source_ids": [
+        7
+      ]
+    },
+    {
+      "effective_date": "2026-06-29",
+      "effective_time": "before_market_open",
+      "deleted_ticker": "VZ",
+      "added_ticker": "GOOGL",
+      "maps_to_original_2015_member": true,
+      "original_ticker": "VZ",
+      "category": "index_deletion",
+      "reason_summary": "Verizon had about 0.5% index weight due to its low price; Alphabet broadens Communication Services and digital-business representation.",
+      "source_ids": [
+        8
+      ]
+    }
+  ],
+  "security_identity_notes": [
+    {
+      "original_ticker": "DD",
+      "date": "2017-08-31",
+      "category": "stock_for_stock_merger",
+      "summary": "Merger effective August 31, 2017. Historical EID common shares exchanged for 1.2820 DWDP shares plus cash in lieu of fractional shares. Old DD shares suspended before September 1 open; DWDP trading starts September 1. This is not current DD continuously existing since 2015.",
+      "source_ids": [
+        2,
+        10
+      ]
+    },
+    {
+      "original_ticker": "DD",
+      "date": "2019-06-03",
+      "category": "successor_ticker_reuse",
+      "summary": "DowDuPont subsequently renamed DuPont de Nemours and began trading under DD on June 3, 2019 following 2019 separations. DD shareholder-return lineage must also account for DOW/CTVA distributions and later corporate actions. The complete shareholder basket and latest descendants are assigned to a separate corporate-action audit.",
+      "source_ids": [
+        4,
+        10
+      ]
+    },
+    {
+      "original_ticker": "UTX",
+      "date": "2020-04-03",
+      "category": "name_and_ticker_change",
+      "successor_ticker": "RTX",
+      "summary": "After Carrier/Otis spin-offs and the merger, United Technologies shareholders continued holding their existing common shares. UTX changed name and ticker to Raytheon Technologies/RTX. Old RTN ceased trading and converted to UTC common, not the reverse.",
+      "source_ids": [
+        9
+      ]
+    },
+    {
+      "original_ticker": "GE",
+      "category": "retain_after_index_deletion",
+      "summary": "Removing GE from the index does not justify removing its original shareholder lineage or adding WBA. GE distributions and subsequent spin-offs belong in the separate corporate-action audit.",
+      "source_ids": [
+        3
+      ]
+    }
+  ],
+  "current_endpoint_reconciliation": {
+    "source_id": 11,
+    "holdings_as_of": "2026-10-02",
+    "equity_tickers": [
+      "GS",
+      "CAT",
+      "MSFT",
+      "AMGN",
+      "UNH",
+      "V",
+      "TRV",
+      "GOOGL",
+      "AAPL",
+      "JPM",
+      "SHW",
+      "AXP",
+      "HD",
+      "JNJ",
+      "AMZN",
+      "CRM",
+      "NVDA",
+      "MCD",
+      "IBM",
+      "HON",
+      "CVX",
+      "BA",
+      "MMM",
+      "PG",
+      "MRK",
+      "CSCO",
+      "WMT",
+      "DIS",
+      "KO",
+      "NKE"
+    ],
+    "equity_count": 30,
+    "equals_expected_post_event_roster": true,
+    "original_names_still_in_djia": 23,
+    "original_names_later_removed": 7,
+    "scope_limit": "Endpoint reconciliation and targeted searches found no additional roster differences. This is not an independently exhaustive day-by-day archive proof of no intermediate removal/re-entry."
+  },
+  "interpretation": {
+    "recommended_report_sentence": "We fix the investable universe using the Dow Jones Industrial Average constituents observed on 31 October 2015 and retain the original shareholder lineages after subsequent index removals. This mitigates selection based on end-of-sample survivors and winners, but does not establish that all survivorship or selection biases are eliminated.",
+    "forbidden_inferences": [
+      "Index deletion means bankruptcy or exchange delisting.",
+      "Current DD ticker identifies the same original 2015 security throughout.",
+      "UTX common shares were canceled like the acquired RTN shares.",
+      "Replacing removed original names with new Dow entrants preserves the fixed 2015 cohort.",
+      "A historical Dow roster guarantees representative bankrupt-company exposure or eliminates survivorship bias."
+    ]
+  },
+  "validation": {
+    "roster_count": 30,
+    "unique_original_tickers": 30,
+    "original_names_with_confirmed_index_removal": 7,
+    "all_verified_index_deletion_rows_in_event_series": 10,
+    "distinct_event_dates": 7,
+    "price_history_downloaded": false,
+    "market_cap_data_downloaded": false,
+    "current_holdings_downloaded_to_memory_for_membership_only": true,
+    "original_reports_modified": false,
+    "full_corporate_action_audit": "separate branch / not certified here"
+  },
+  "sources": [
+    {
+      "id": 1,
+      "publisher": "SEC / SPDR Dow Jones Industrial Average ETF Trust",
+      "title": "Annual Report October 31, 2015",
+      "url": "https://www.sec.gov/Archives/edgar/data/1041130/000119312515412510/d84289dn30d.htm",
+      "locator": "Schedule of Investments, printed page 2; 30 common-stock issuers; overview page 1 describes DJIA portfolio"
+    },
+    {
+      "id": 2,
+      "publisher": "S&P Dow Jones Indices",
+      "title": "DowDuPont Set to Join Dow Jones Industrial Average",
+      "published": "2017-08-24",
+      "url": "https://press.spglobal.com/2017-08-24-DowDuPont-Set-to-Join-Dow-Jones-Industrial-Average"
+    },
+    {
+      "id": 3,
+      "publisher": "S&P Dow Jones Indices",
+      "title": "Walgreens Boots Alliance Set to Join Dow Jones Industrial Average",
+      "published": "2018-06-19",
+      "url": "https://press.spglobal.com/2018-06-19-Walgreens-Boots-Alliance-Set-to-Join-Dow-Jones-Industrial-Average"
+    },
+    {
+      "id": 4,
+      "publisher": "S&P Dow Jones Indices",
+      "title": "Dow Set to Join Dow Jones Industrial Average",
+      "published": "2019-03-26",
+      "url": "https://press.spglobal.com/2019-03-26-Dow-Set-to-Join-Dow-Jones-Industrial-Average"
+    },
+    {
+      "id": 5,
+      "publisher": "S&P Dow Jones Indices",
+      "title": "Salesforce.com, Amgen and Honeywell International Set to Join Dow Jones Industrial Average",
+      "published": "2020-08-24",
+      "url": "https://press.spglobal.com/2020-08-24-Salesforce-com-Amgen-and-Honeywell-International-Set-to-Join-Dow-Jones-Industrial-Average"
+    },
+    {
+      "id": 6,
+      "publisher": "S&P Dow Jones Indices",
+      "title": "Amazon.com Set to Join Dow Jones Industrial Average; Uber to Join Dow Jones Transportation Average",
+      "published": "2024-02-20",
+      "url": "https://press.spglobal.com/2024-02-20-Amazon-com-Set-to-Join-Dow-Jones-Industrial-Average-Uber-to-Join-Dow-Jones-Transportation-Average"
+    },
+    {
+      "id": 7,
+      "publisher": "S&P Dow Jones Indices",
+      "title": "NVIDIA and Sherwin-Williams Set to Join Dow Jones Industrial Average; Vistra to Join Dow Jones Utility Average",
+      "published": "2024-11-01",
+      "url": "https://press.spglobal.com/2024-11-01-NVIDIA-and-Sherwin-Williams-Set-to-Join-Dow-Jones-Industrial-Average-Vistra-to-Join-Dow-Jones-Utility-Average"
+    },
+    {
+      "id": 8,
+      "publisher": "S&P Dow Jones Indices",
+      "title": "Alphabet Set to Join and Honeywell International to Remain in Dow Jones Industrial Average",
+      "published": "2026-06-23",
+      "url": "https://press.spglobal.com/2026-06-23-Alphabet-Set-to-Join-and-Honeywell-International-to-Remain-in-Dow-Jones-Industrial-Average"
+    },
+    {
+      "id": 9,
+      "publisher": "SEC / Raytheon Technologies",
+      "title": "United Technologies and Raytheon Complete Merger of Equals Transaction",
+      "published": "2020-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000114036120007906/nc10010681x1_ex99-1.htm",
+      "locator": "Exhibit 99.1, printed page 1: UTC holders continue holding their shares; old RTN converts into UTC shares; UTX ticker becomes RTX"
+    },
+    {
+      "id": 10,
+      "publisher": "SEC / DuPont de Nemours",
+      "title": "2019 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670020000006/dupont201910-k.htm",
+      "locator": "Historical EID shares convert into 1.2820 DWDP shares; old Historical EID shares suspended before September 1, 2017 open; DWDP later renamed DD in June 2019"
+    },
+    {
+      "id": 11,
+      "publisher": "State Street Investment Management",
+      "title": "DIA daily holdings",
+      "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-dia.xlsx",
+      "observed_holdings_date": "2026-10-02",
+      "locator": "Downloaded into memory only; extracted Name/Ticker/Identifier metadata, 30 equity rows; no weights or price history retained"
+    },
+    {
+      "id": 12,
+      "publisher": "S&P Dow Jones Indices",
+      "title": "Dow Jones Industrial Average index overview",
+      "url": "https://www.spglobal.com/spdji/en/indices/equity/dow-jones-industrial-average/",
+      "locator": "Price-weighted measure of 30 U.S. blue-chip companies; excludes transportation and utilities"
+    }
+  ]
+}

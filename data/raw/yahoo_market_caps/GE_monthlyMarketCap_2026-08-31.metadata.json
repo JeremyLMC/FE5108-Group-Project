@@ -1,0 +1,19 @@
+{
+  "provider": "Yahoo Finance",
+  "symbol": "GE",
+  "endpoint": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/GE",
+  "requested_parameters": {
+    "symbol": "GE",
+    "type": "monthlyMarketCap,quarterlyMarketCap,shares_out",
+    "period1": 1780272000,
+    "period2": 1788307200
+  },
+  "requested_at_utc": "2026-10-06T02:04:45.267063+00:00",
+  "authentication": "none",
+  "target_as_of_date": "2026-08-31",
+  "http_status": 200,
+  "received_at_utc": "2026-10-06T02:04:52.341240+00:00",
+  "response_date_header": "Tue, 06 Oct 2026 02:04:55 GMT",
+  "response_content_type": "application/json;charset=utf-8",
+  "raw_response_file": "data/raw/yahoo_market_caps/GE_monthlyMarketCap_2026-08-31.json"
+}

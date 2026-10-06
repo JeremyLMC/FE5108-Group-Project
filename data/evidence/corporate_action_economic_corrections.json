@@ -1,0 +1,886 @@
+{
+  "schema_version": 1,
+  "audited_at": "2026-10-06T10:23:10.522325+08:00",
+  "status": "pass",
+  "events": [
+    {
+      "event_id": "UTX_RTX_20200403",
+      "original_member": "UTX",
+      "main_symbol": "RTX",
+      "distribution_date": "2020-04-03",
+      "economic_ex_date": "2020-04-03",
+      "main_shares_per_old_share": 1.0,
+      "children": [
+        {
+          "symbol": "CARR",
+          "shares_per_old_share": 1.0
+        },
+        {
+          "symbol": "OTIS",
+          "shares_per_old_share": 0.5
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/101829/000114036120008397/nc10010681x2_8k.htm",
+          "support": "UTC distributed Carrier and Otis and then renamed its continuing common stock RTX."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1783180/000178318021000011/carr-20201231.htm",
+          "support": "Distribution effective 2020-04-03 00:01 EDT; one Carrier share per UTC share."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1781335/000114036120007885/nc10010458x4_ex99-1.htm",
+          "support": "Otis began regular-way trading 2020-04-03; one-half Otis share per UTC share."
+        }
+      ],
+      "status": "audited",
+      "previous_trading_date": "2020-04-02",
+      "parent_symbol": "RTX",
+      "event_date": "2020-04-03",
+      "previous_date": "2020-04-02",
+      "child_symbols": [
+        "CARR",
+        "OTIS"
+      ],
+      "child_ratios": {
+        "CARR": 1.0,
+        "OTIS": 0.5
+      },
+      "parent_previous_spot_close": 86.01000159835816,
+      "parent_event_spot_close": 49.93000030517578,
+      "child_event_spot_closes": {
+        "CARR": 16.920000076293945,
+        "OTIS": 47.31999969482422
+      },
+      "cash_dividend_if_any": 0.0,
+      "source_yahoo_daily_gross": 0.9224368175472222,
+      "economic_daily_gross": 1.052319480838256,
+      "multiplier": 1.1408038586712037,
+      "official_urls": [
+        "https://www.sec.gov/Archives/edgar/data/101829/000114036120008397/nc10010681x2_8k.htm",
+        "https://www.sec.gov/Archives/edgar/data/1783180/000178318021000011/carr-20201231.htm",
+        "https://www.sec.gov/Archives/edgar/data/1781335/000114036120007885/nc10010458x4_ex99-1.htm"
+      ],
+      "main_before": {
+        "date": "2020-04-02",
+        "yahoo_close_split_normalized": 54.12838363647461,
+        "future_reported_split_product": 1.589,
+        "restored_observed_quote": 86.01000159835816,
+        "future_reported_splits": [
+          {
+            "date": 1585920600,
+            "numerator": 15890.0,
+            "denominator": 10000.0,
+            "splitRatio": "15890:10000",
+            "date_iso": "2020-04-03",
+            "factor": 1.589
+          }
+        ]
+      },
+      "main_after": {
+        "date": "2020-04-03",
+        "yahoo_close_split_normalized": 49.93000030517578,
+        "future_reported_split_product": 1,
+        "restored_observed_quote": 49.93000030517578,
+        "future_reported_splits": []
+      },
+      "child_valuations": [
+        {
+          "symbol": "CARR",
+          "shares_per_old_share": 1.0,
+          "date": "2020-04-03",
+          "yahoo_close_split_normalized": 16.920000076293945,
+          "future_reported_split_product": 1,
+          "restored_observed_quote": 16.920000076293945,
+          "future_reported_splits": [],
+          "value_per_old_main_share": 16.920000076293945
+        },
+        {
+          "symbol": "OTIS",
+          "shares_per_old_share": 0.5,
+          "date": "2020-04-03",
+          "yahoo_close_split_normalized": 47.31999969482422,
+          "future_reported_split_product": 1,
+          "restored_observed_quote": 47.31999969482422,
+          "future_reported_splits": [],
+          "value_per_old_main_share": 23.65999984741211
+        }
+      ],
+      "ordinary_cash_dividend_overlap": false,
+      "payoff_per_old_main_share": 90.51000022888184,
+      "economic_gross_return": 1.052319480838256,
+      "economic_return": 0.052319480838256105,
+      "yahoo_adjusted_gross_return": 0.9224368175472222,
+      "yahoo_adjusted_return": -0.07756318245277782,
+      "return_difference_percentage_points": 12.988266329103393,
+      "reinvested_main_shares_per_old_share_at_event_close": 1.812737826470622,
+      "correction_application": "Replace the event-day Yahoo Adj Close gross return with economic_gross_return; do not multiply an extra distribution return into it."
+    },
+    {
+      "event_id": "PFE_VTRS_20201117",
+      "original_member": "PFE",
+      "main_symbol": "PFE",
+      "distribution_date": "2020-11-16",
+      "economic_ex_date": "2020-11-17",
+      "main_shares_per_old_share": 1.0,
+      "children": [
+        {
+          "symbol": "VTRS",
+          "shares_per_old_share": 0.124079
+        }
+      ],
+      "ratio_precision_note": "Official announcement gives approximately 0.124079; use this disclosed six-decimal ratio.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/78003/000119312520298356/d72492d8k.htm",
+          "support": "Upjohn distribution completed 2020-11-16; approximately 0.124079 Viatris share per Pfizer share."
+        },
+        {
+          "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-transaction-combine-its-upjohn-business",
+          "support": "Viatris regular trading starts 2020-11-17; Pfizer shareholders retain their Pfizer shares."
+        },
+        {
+          "url": "https://s206.q4cdn.com/795948973/files/doc_downloads/viatris/Distribution-Tax-Basis-Information.pdf",
+          "support": "Regular-way Pfizer traded with Viatris entitlement through the close of the distribution date, 2020-11-16."
+        }
+      ],
+      "status": "audited",
+      "previous_trading_date": "2020-11-16",
+      "parent_symbol": "PFE",
+      "event_date": "2020-11-17",
+      "previous_date": "2020-11-16",
+      "child_symbols": [
+        "VTRS"
+      ],
+      "child_ratios": {
+        "VTRS": 0.124079
+      },
+      "parent_previous_spot_close": 37.330000289916995,
+      "parent_event_spot_close": 36.040000915527344,
+      "child_event_spot_closes": {
+        "VTRS": 16.34000015258789
+      },
+      "cash_dividend_if_any": 0.0,
+      "source_yahoo_daily_gross": 1.0175770762886582,
+      "economic_daily_gross": 1.019754928979802,
+      "multiplier": 1.0021402336411576,
+      "official_urls": [
+        "https://www.sec.gov/Archives/edgar/data/78003/000119312520298356/d72492d8k.htm",
+        "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-transaction-combine-its-upjohn-business",
+        "https://s206.q4cdn.com/795948973/files/doc_downloads/viatris/Distribution-Tax-Basis-Information.pdf"
+      ],
+      "main_before": {
+        "date": "2020-11-16",
+        "yahoo_close_split_normalized": 35.417457580566406,
+        "future_reported_split_product": 1.054,
+        "restored_observed_quote": 37.330000289916995,
+        "future_reported_splits": [
+          {
+            "date": 1605623400,
+            "numerator": 1054.0,
+            "denominator": 1000.0,
+            "splitRatio": "1054:1000",
+            "date_iso": "2020-11-17",
+            "factor": 1.054
+          }
+        ]
+      },
+      "main_after": {
+        "date": "2020-11-17",
+        "yahoo_close_split_normalized": 36.040000915527344,
+        "future_reported_split_product": 1,
+        "restored_observed_quote": 36.040000915527344,
+        "future_reported_splits": []
+      },
+      "child_valuations": [
+        {
+          "symbol": "VTRS",
+          "shares_per_old_share": 0.124079,
+          "date": "2020-11-17",
+          "yahoo_close_split_normalized": 16.34000015258789,
+          "future_reported_split_product": 1,
+          "restored_observed_quote": 16.34000015258789,
+          "future_reported_splits": [],
+          "value_per_old_main_share": 2.0274508789329526
+        }
+      ],
+      "ordinary_cash_dividend_overlap": false,
+      "payoff_per_old_main_share": 38.0674517944603,
+      "economic_gross_return": 1.019754928979802,
+      "economic_return": 0.019754928979802022,
+      "yahoo_adjusted_gross_return": 1.0175770762886582,
+      "yahoo_adjusted_return": 0.017577076288658233,
+      "return_difference_percentage_points": 0.2177852691143789,
+      "reinvested_main_shares_per_old_share_at_event_close": 1.0562555723482085,
+      "correction_application": "Replace the event-day Yahoo Adj Close gross return with economic_gross_return; do not multiply an extra distribution return into it."
+    },
+    {
+      "event_id": "MRK_OGN_20210603",
+      "original_member": "MRK",
+      "main_symbol": "MRK",
+      "distribution_date": "2021-06-02",
+      "economic_ex_date": "2021-06-03",
+      "main_shares_per_old_share": 1.0,
+      "children": [
+        {
+          "symbol": "OGN",
+          "shares_per_old_share": 0.1
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.merck.com/news/merck-declares-record-date-and-dividend-for-the-organon-co-spinoff/",
+          "support": "Merck regular-way shares retain Organon entitlement through 2021-06-02; regular-way ex-distribution trading starts 2021-06-03."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1821825/000119312521180652/d49288d8k.htm",
+          "support": "Completed distribution gives one tenth Organon share per Merck share; regular-way Organon starts 2021-06-03."
+        }
+      ],
+      "status": "audited",
+      "previous_trading_date": "2021-06-02",
+      "parent_symbol": "MRK",
+      "event_date": "2021-06-03",
+      "previous_date": "2021-06-02",
+      "child_symbols": [
+        "OGN"
+      ],
+      "child_ratios": {
+        "OGN": 0.1
+      },
+      "parent_previous_spot_close": 75.86999645996094,
+      "parent_event_spot_close": 73.91000366210938,
+      "child_event_spot_closes": {
+        "OGN": 37.0
+      },
+      "cash_dividend_if_any": 0.0,
+      "source_yahoo_daily_gross": 1.0209264050816564,
+      "economic_daily_gross": 1.0229340619920377,
+      "multiplier": 1.001966505029538,
+      "official_urls": [
+        "https://www.merck.com/news/merck-declares-record-date-and-dividend-for-the-organon-co-spinoff/",
+        "https://www.sec.gov/Archives/edgar/data/1821825/000119312521180652/d49288d8k.htm"
+      ],
+      "main_before": {
+        "date": "2021-06-02",
+        "yahoo_close_split_normalized": 72.39503479003906,
+        "future_reported_split_product": 1.048,
+        "restored_observed_quote": 75.86999645996094,
+        "future_reported_splits": [
+          {
+            "date": 1622727000,
+            "numerator": 1048.0,
+            "denominator": 1000.0,
+            "splitRatio": "1048:1000",
+            "date_iso": "2021-06-03",
+            "factor": 1.048
+          }
+        ]
+      },
+      "main_after": {
+        "date": "2021-06-03",
+        "yahoo_close_split_normalized": 73.91000366210938,
+        "future_reported_split_product": 1,
+        "restored_observed_quote": 73.91000366210938,
+        "future_reported_splits": []
+      },
+      "child_valuations": [
+        {
+          "symbol": "OGN",
+          "shares_per_old_share": 0.1,
+          "date": "2021-06-03",
+          "yahoo_close_split_normalized": 37.0,
+          "future_reported_split_product": 1,
+          "restored_observed_quote": 37.0,
+          "future_reported_splits": [],
+          "value_per_old_main_share": 3.7
+        }
+      ],
+      "ordinary_cash_dividend_overlap": false,
+      "payoff_per_old_main_share": 77.61000366210938,
+      "economic_gross_return": 1.0229340619920377,
+      "economic_return": 0.022934061992037735,
+      "yahoo_adjusted_gross_return": 1.0209264050816564,
+      "yahoo_adjusted_return": 0.02092640508165644,
+      "return_difference_percentage_points": 0.20076569103812947,
+      "reinvested_main_shares_per_old_share_at_event_close": 1.050060882379537,
+      "correction_application": "Replace the event-day Yahoo Adj Close gross return with economic_gross_return; do not multiply an extra distribution return into it."
+    },
+    {
+      "event_id": "IBM_KD_20211104",
+      "original_member": "IBM",
+      "main_symbol": "IBM",
+      "distribution_date": "2021-11-03",
+      "economic_ex_date": "2021-11-04",
+      "main_shares_per_old_share": 1.0,
+      "children": [
+        {
+          "symbol": "KD",
+          "shares_per_old_share": 0.2
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://newsroom.ibm.com/2021-11-03-IBM-Completes-the-Separation-of-Kyndryl",
+          "support": "Distribution of one Kyndryl share per five IBM shares; Kyndryl regular-way trading begins 2021-11-04."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1867072/000155837021016281/kd-20210930x10q.htm",
+          "support": "Separation completed 2021-11-03; one Kyndryl per five IBM; independent exchange trading begins 2021-11-04."
+        },
+        {
+          "url": "https://kyndryl.gcs-web.com/shareholder-resources/spinoff-information",
+          "support": "Official tax-basis example uses 2021-11-04 closes: IBM 120.85 dollars and Kyndryl 26.38 dollars."
+        }
+      ],
+      "status": "audited",
+      "previous_trading_date": "2021-11-03",
+      "parent_symbol": "IBM",
+      "event_date": "2021-11-04",
+      "previous_date": "2021-11-03",
+      "child_symbols": [
+        "KD"
+      ],
+      "child_ratios": {
+        "KD": 0.2
+      },
+      "parent_previous_spot_close": 127.13000302124024,
+      "parent_event_spot_close": 120.8499984741211,
+      "child_event_spot_closes": {
+        "KD": 26.3799991607666
+      },
+      "cash_dividend_if_any": 0.0,
+      "source_yahoo_daily_gross": 0.9943293835753775,
+      "economic_daily_gross": 0.9921025352701511,
+      "multiplier": 0.9977604520775408,
+      "official_urls": [
+        "https://newsroom.ibm.com/2021-11-03-IBM-Completes-the-Separation-of-Kyndryl",
+        "https://www.sec.gov/Archives/edgar/data/1867072/000155837021016281/kd-20210930x10q.htm",
+        "https://kyndryl.gcs-web.com/shareholder-resources/spinoff-information"
+      ],
+      "main_before": {
+        "date": "2021-11-03",
+        "yahoo_close_split_normalized": 121.53919982910156,
+        "future_reported_split_product": 1.046,
+        "restored_observed_quote": 127.13000302124024,
+        "future_reported_splits": [
+          {
+            "date": 1636032600,
+            "numerator": 1046.0,
+            "denominator": 1000.0,
+            "splitRatio": "1046:1000",
+            "date_iso": "2021-11-04",
+            "factor": 1.046
+          }
+        ]
+      },
+      "main_after": {
+        "date": "2021-11-04",
+        "yahoo_close_split_normalized": 120.8499984741211,
+        "future_reported_split_product": 1,
+        "restored_observed_quote": 120.8499984741211,
+        "future_reported_splits": []
+      },
+      "child_valuations": [
+        {
+          "symbol": "KD",
+          "shares_per_old_share": 0.2,
+          "date": "2021-11-04",
+          "yahoo_close_split_normalized": 26.3799991607666,
+          "future_reported_split_product": 1,
+          "restored_observed_quote": 26.3799991607666,
+          "future_reported_splits": [],
+          "value_per_old_main_share": 5.275999832153321
+        }
+      ],
+      "ordinary_cash_dividend_overlap": false,
+      "payoff_per_old_main_share": 126.12599830627441,
+      "economic_gross_return": 0.9921025352701511,
+      "economic_return": -0.007897464729848869,
+      "yahoo_adjusted_gross_return": 0.9943293835753775,
+      "yahoo_adjusted_return": -0.005670616424622521,
+      "return_difference_percentage_points": -0.22268483052263477,
+      "reinvested_main_shares_per_old_share_at_event_close": 1.0436574257241975,
+      "correction_application": "Replace the event-day Yahoo Adj Close gross return with economic_gross_return; do not multiply an extra distribution return into it."
+    },
+    {
+      "event_id": "GE_GEHC_20230104",
+      "original_member": "GE",
+      "main_symbol": "GE",
+      "distribution_date": "2023-01-03",
+      "economic_ex_date": "2023-01-04",
+      "main_shares_per_old_share": 1.0,
+      "children": [
+        {
+          "symbol": "GEHC",
+          "shares_per_old_share": 0.3333333333333333
+        }
+      ],
+      "official_source_file": "data/evidence/corporate_action_official_ge_mmm.json",
+      "sources": [
+        {
+          "id": "ge_8k_20230104",
+          "type": "issuer_linked_sec_filing",
+          "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000040545/c44e6745-bc3f-4e24-9f3c-8e2550ccf4cc.pdf",
+          "official_index_url": "https://www.ge.com/investor-relations/spinoff-resources",
+          "accession_number": "0001193125-23-001157",
+          "title": "General Electric Company Form 8-K filed January 4, 2023",
+          "published_on": "2023-01-04",
+          "support_excerpt": "On January 3, 2023 (the “Distribution Date”) at 5:00 p.m. New York City time",
+          "excerpt_word_count": 14,
+          "support_locator": "Physical PDF p.2, Introductory Note; browser lines 45-51."
+        },
+        {
+          "id": "gehc_final_information_statement",
+          "type": "sec_filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1932393/000119312522301053/d432941dex991.htm",
+          "title": "GE HealthCare Final Information Statement, December 8, 2022",
+          "published_on": "2022-12-08",
+          "support_excerpt": "Shares of GE common stock that trade on the regular-way market will trade with an entitlement",
+          "excerpt_word_count": 16,
+          "support_locator": "The Spin-Off / Trading Prior to the Distribution Date."
+        }
+      ],
+      "ex_date_evidence_status": "derived_from_verified_completion_and_trading_dates",
+      "status": "audited",
+      "previous_trading_date": "2023-01-03",
+      "parent_symbol": "GE",
+      "event_date": "2023-01-04",
+      "previous_date": "2023-01-03",
+      "child_symbols": [
+        "GEHC"
+      ],
+      "child_ratios": {
+        "GEHC": 0.3333333333333333
+      },
+      "parent_previous_spot_close": 84.98000132326125,
+      "parent_event_spot_close": 70.20000086593627,
+      "child_event_spot_closes": {
+        "GEHC": 60.4900016784668
+      },
+      "cash_dividend_if_any": 0.0,
+      "source_yahoo_daily_gross": 1.058204260940997,
+      "economic_daily_gross": 1.0633482390170748,
+      "multiplier": 1.0048610445695083,
+      "official_urls": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000040545/c44e6745-bc3f-4e24-9f3c-8e2550ccf4cc.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1932393/000119312522301053/d432941dex991.htm"
+      ],
+      "main_before": {
+        "date": "2023-01-03",
+        "yahoo_close_split_normalized": 52.943973541259766,
+        "future_reported_split_product": 1.6050929999999997,
+        "restored_observed_quote": 84.98000132326125,
+        "future_reported_splits": [
+          {
+            "date": 1672842600,
+            "numerator": 1281.0,
+            "denominator": 1000.0,
+            "splitRatio": "1281:1000",
+            "date_iso": "2023-01-04",
+            "factor": 1.281
+          },
+          {
+            "date": 1712064600,
+            "numerator": 1253.0,
+            "denominator": 1000.0,
+            "splitRatio": "1253:1000",
+            "date_iso": "2024-04-02",
+            "factor": 1.253
+          }
+        ]
+      },
+      "main_after": {
+        "date": "2023-01-04",
+        "yahoo_close_split_normalized": 56.02553939819336,
+        "future_reported_split_product": 1.253,
+        "restored_observed_quote": 70.20000086593627,
+        "future_reported_splits": [
+          {
+            "date": 1712064600,
+            "numerator": 1253.0,
+            "denominator": 1000.0,
+            "splitRatio": "1253:1000",
+            "date_iso": "2024-04-02",
+            "factor": 1.253
+          }
+        ]
+      },
+      "child_valuations": [
+        {
+          "symbol": "GEHC",
+          "shares_per_old_share": 0.3333333333333333,
+          "date": "2023-01-04",
+          "yahoo_close_split_normalized": 60.4900016784668,
+          "future_reported_split_product": 1,
+          "restored_observed_quote": 60.4900016784668,
+          "future_reported_splits": [],
+          "value_per_old_main_share": 20.163333892822266
+        }
+      ],
+      "ordinary_cash_dividend_overlap": false,
+      "payoff_per_old_main_share": 90.36333475875854,
+      "economic_gross_return": 1.0633482390170748,
+      "economic_return": 0.06334823901707476,
+      "yahoo_adjusted_gross_return": 1.058204260940997,
+      "yahoo_adjusted_return": 0.058204260940996955,
+      "return_difference_percentage_points": 0.5143978076077804,
+      "reinvested_main_shares_per_old_share_at_event_close": 1.287226974987208,
+      "correction_application": "Replace the event-day Yahoo Adj Close gross return with economic_gross_return; do not multiply an extra distribution return into it."
+    },
+    {
+      "event_id": "GE_GEV_20240402",
+      "original_member": "GE",
+      "main_symbol": "GE",
+      "distribution_date": "2024-04-02",
+      "economic_ex_date": "2024-04-02",
+      "main_shares_per_old_share": 1.0,
+      "children": [
+        {
+          "symbol": "GEV",
+          "shares_per_old_share": 0.25
+        }
+      ],
+      "official_source_file": "data/evidence/corporate_action_official_ge_mmm.json",
+      "sources": [
+        {
+          "id": "ge_8k_20240402",
+          "type": "issuer_linked_sec_filing",
+          "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000040545/b372f5d6-978f-4305-9157-e94fe2fb6dec.pdf",
+          "official_index_url": "https://www.ge.com/investor-relations/spinoff-resources",
+          "accession_number": "0001193125-24-084038",
+          "title": "General Electric Company Form 8-K filed April 2, 2024",
+          "published_on": "2024-04-02",
+          "support_excerpt": "On April 2, 2024 (the “Distribution Date”) at 12:10 a.m. Eastern Time",
+          "excerpt_word_count": 12,
+          "support_locator": "Physical PDF p.2, Introductory Note; browser lines 46-52."
+        },
+        {
+          "id": "ge_gev_approval_release",
+          "type": "issuer_official_press_release",
+          "url": "https://www.ge.com/news/press-releases/ge-board-of-directors-approves-spin-off-of-ge-vernova-ge-vernova-and-ge-aerospace-to",
+          "title": "GE Board of Directors Approves Spin-Off of GE Vernova; GE Vernova and GE Aerospace to Launch April 2, 2024",
+          "published_on": "2024-02-29",
+          "support_excerpt": "Beginning on March 27, 2024 and continuing through April 1, 2024",
+          "excerpt_word_count": 11,
+          "support_locator": "When-Issued Trading to Begin, browser lines 22-23; ordinary GE with entitlement and auxiliary GE WI without entitlement."
+        }
+      ],
+      "ex_date_evidence_status": "derived_from_verified_completion_and_trading_dates",
+      "status": "audited",
+      "previous_trading_date": "2024-04-01",
+      "parent_symbol": "GE",
+      "event_date": "2024-04-02",
+      "previous_date": "2024-04-01",
+      "child_symbols": [
+        "GEV"
+      ],
+      "child_ratios": {
+        "GEV": 0.25
+      },
+      "parent_previous_spot_close": 175.36000375366208,
+      "parent_event_spot_close": 136.47000122070312,
+      "child_event_spot_closes": {
+        "GEV": 140.0
+      },
+      "cash_dividend_if_any": 0.0,
+      "source_yahoo_daily_gross": 0.9751193500414709,
+      "economic_daily_gross": 0.9778170480742948,
+      "multiplier": 1.0027665311253533,
+      "official_urls": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000040545/b372f5d6-978f-4305-9157-e94fe2fb6dec.pdf",
+        "https://www.ge.com/news/press-releases/ge-board-of-directors-approves-spin-off-of-ge-vernova-ge-vernova-and-ge-aerospace-to"
+      ],
+      "main_before": {
+        "date": "2024-04-01",
+        "yahoo_close_split_normalized": 139.95211791992188,
+        "future_reported_split_product": 1.253,
+        "restored_observed_quote": 175.36000375366208,
+        "future_reported_splits": [
+          {
+            "date": 1712064600,
+            "numerator": 1253.0,
+            "denominator": 1000.0,
+            "splitRatio": "1253:1000",
+            "date_iso": "2024-04-02",
+            "factor": 1.253
+          }
+        ]
+      },
+      "main_after": {
+        "date": "2024-04-02",
+        "yahoo_close_split_normalized": 136.47000122070312,
+        "future_reported_split_product": 1,
+        "restored_observed_quote": 136.47000122070312,
+        "future_reported_splits": []
+      },
+      "child_valuations": [
+        {
+          "symbol": "GEV",
+          "shares_per_old_share": 0.25,
+          "date": "2024-04-02",
+          "yahoo_close_split_normalized": 140.0,
+          "future_reported_split_product": 1,
+          "restored_observed_quote": 140.0,
+          "future_reported_splits": [],
+          "value_per_old_main_share": 35.0
+        }
+      ],
+      "ordinary_cash_dividend_overlap": false,
+      "payoff_per_old_main_share": 171.47000122070312,
+      "economic_gross_return": 0.9778170480742948,
+      "economic_return": -0.022182951925705185,
+      "yahoo_adjusted_gross_return": 0.9751193500414709,
+      "yahoo_adjusted_return": -0.024880649958529122,
+      "return_difference_percentage_points": 0.26976980328239364,
+      "reinvested_main_shares_per_old_share_at_event_close": 1.2564666204069055,
+      "correction_application": "Replace the event-day Yahoo Adj Close gross return with economic_gross_return; do not multiply an extra distribution return into it."
+    },
+    {
+      "event_id": "MMM_SOLV_20240401",
+      "original_member": "MMM",
+      "main_symbol": "MMM",
+      "distribution_date": "2024-04-01",
+      "economic_ex_date": "2024-04-01",
+      "main_shares_per_old_share": 1.0,
+      "children": [
+        {
+          "symbol": "SOLV",
+          "shares_per_old_share": 0.25
+        }
+      ],
+      "official_source_file": "data/evidence/corporate_action_official_ge_mmm.json",
+      "sources": [
+        {
+          "id": "mmm_completion_release",
+          "type": "issuer_official_press_release",
+          "url": "https://investors.3m.com/news-events/press-releases/detail/1835/3m-completes-spin-off-of-solventum",
+          "title": "3M Completes Spin-off of Solventum",
+          "published_on": "2024-04-01",
+          "support_excerpt": "one share of Solventum common stock for every four shares of 3M common stock",
+          "excerpt_word_count": 14,
+          "support_locator": "Distribution paragraph; browser lines 45-47."
+        },
+        {
+          "id": "mmm_form8937",
+          "type": "issuer_official_tax_action_document",
+          "url": "https://d1io3yog0oux5.cloudfront.net/_ceb7e864243068837370b1c6bd26c5f1/3m/db/3266/30881/file/Form_8937_SOLVSpin.pdf",
+          "official_index_url": "https://investors.3m.com/resources/health-care-spin-off",
+          "title": "3M Form 8937: Solventum Spin-off",
+          "support_excerpt": "On April 1, 2024, at 3:30 a.m. EDT",
+          "excerpt_word_count": 8,
+          "support_locator": "Physical PDF p.3, Part II Line 14; browser lines 82-84; completed distribution, not an anticipated timetable."
+        },
+        {
+          "id": "mmm_approval_release_sec",
+          "type": "sec_filing_exhibit_issuer_press_release",
+          "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674024000023/pressrelease3-8x24.htm",
+          "title": "3M Board of Directors Approves Spin-off of Solventum",
+          "published_on": "2024-03-08",
+          "support_excerpt": "Beginning on March 26, 2024 and continuing through March 28, 2024",
+          "excerpt_word_count": 11,
+          "support_locator": "Trading Details; browser lines 17-18; ordinary MMM with entitlement and auxiliary MMM WI without entitlement."
+        },
+        {
+          "id": "solv_2024_annual_report",
+          "type": "issuer_linked_sec_filing",
+          "url": "https://investors.solventum.com/financials/sec-filings/content/0001964738-25-000040/0001964738-25-000040.pdf",
+          "title": "Solventum 2024 Annual Report",
+          "published_on": "2025-03-21",
+          "support_excerpt": "April 1, 2024, the first day of “regular way” trading",
+          "excerpt_word_count": 10,
+          "support_locator": "Item 5 / Stock Performance Graph, printed p.42; physical page is not independently recorded."
+        }
+      ],
+      "ex_date_evidence_status": "derived_from_verified_completion_and_trading_dates",
+      "status": "audited",
+      "previous_trading_date": "2024-03-28",
+      "parent_symbol": "MMM",
+      "event_date": "2024-04-01",
+      "previous_date": "2024-03-28",
+      "child_symbols": [
+        "SOLV"
+      ],
+      "child_ratios": {
+        "SOLV": 0.25
+      },
+      "parent_previous_spot_close": 106.07000363159179,
+      "parent_event_spot_close": 94.0199966430664,
+      "child_event_spot_closes": {
+        "SOLV": 69.0999984741211
+      },
+      "cash_dividend_if_any": 0.0,
+      "source_yahoo_daily_gross": 1.0601292392405948,
+      "economic_daily_gross": 1.0492598515236469,
+      "multiplier": 0.9897471107157331,
+      "official_urls": [
+        "https://investors.3m.com/news-events/press-releases/detail/1835/3m-completes-spin-off-of-solventum",
+        "https://d1io3yog0oux5.cloudfront.net/_ceb7e864243068837370b1c6bd26c5f1/3m/db/3266/30881/file/Form_8937_SOLVSpin.pdf",
+        "https://www.sec.gov/Archives/edgar/data/66740/000006674024000023/pressrelease3-8x24.htm",
+        "https://investors.solventum.com/financials/sec-filings/content/0001964738-25-000040/0001964738-25-000040.pdf"
+      ],
+      "main_before": {
+        "date": "2024-03-28",
+        "yahoo_close_split_normalized": 88.68729400634766,
+        "future_reported_split_product": 1.196,
+        "restored_observed_quote": 106.07000363159179,
+        "future_reported_splits": [
+          {
+            "date": 1711978200,
+            "numerator": 1196.0,
+            "denominator": 1000.0,
+            "splitRatio": "1196:1000",
+            "date_iso": "2024-04-01",
+            "factor": 1.196
+          }
+        ]
+      },
+      "main_after": {
+        "date": "2024-04-01",
+        "yahoo_close_split_normalized": 94.0199966430664,
+        "future_reported_split_product": 1,
+        "restored_observed_quote": 94.0199966430664,
+        "future_reported_splits": []
+      },
+      "child_valuations": [
+        {
+          "symbol": "SOLV",
+          "shares_per_old_share": 0.25,
+          "date": "2024-04-01",
+          "yahoo_close_split_normalized": 69.0999984741211,
+          "future_reported_split_product": 1,
+          "restored_observed_quote": 69.0999984741211,
+          "future_reported_splits": [],
+          "value_per_old_main_share": 17.274999618530273
+        }
+      ],
+      "ordinary_cash_dividend_overlap": false,
+      "payoff_per_old_main_share": 111.29499626159668,
+      "economic_gross_return": 1.0492598515236469,
+      "economic_return": 0.04925985152364687,
+      "yahoo_adjusted_gross_return": 1.0601292392405948,
+      "yahoo_adjusted_return": 0.06012923924059477,
+      "return_difference_percentage_points": -1.0869387716947898,
+      "reinvested_main_shares_per_old_share_at_event_close": 1.1837375051619323,
+      "correction_application": "Replace the event-day Yahoo Adj Close gross return with economic_gross_return; do not multiply an extra distribution return into it."
+    }
+  ],
+  "failures": [],
+  "raw_files": {
+    "CARR": "data/raw/corporate_actions/CARR_full_chart.json",
+    "GEV": "data/raw/corporate_actions/GEV_full_chart.json",
+    "GEHC": "data/raw/corporate_actions/GEHC_full_chart.json",
+    "GE": "data/raw/yahoo_prices/GE_daily_2015-10-01_2026-08-31.json",
+    "KD": "data/raw/corporate_actions/KD_full_chart.json",
+    "IBM": "data/raw/yahoo_prices/IBM_daily_2015-10-01_2026-08-31.json",
+    "MMM": "data/raw/yahoo_prices/MMM_daily_2015-10-01_2026-08-31.json",
+    "OGN": "data/raw/corporate_actions/OGN_full_chart.json",
+    "OTIS": "data/raw/corporate_actions/OTIS_full_chart.json",
+    "MRK": "data/raw/yahoo_prices/MRK_daily_2015-10-01_2026-08-31.json",
+    "PFE": "data/raw/yahoo_prices/PFE_daily_2015-10-01_2026-08-31.json",
+    "RTX": "data/raw/yahoo_prices/RTX_daily_2015-10-01_2026-08-31.json",
+    "SOLV": "data/raw/corporate_actions/SOLV_full_chart.json",
+    "VTRS": "data/raw/corporate_actions/VTRS_full_chart.json"
+  },
+  "full_split_inventory_raw_files": {
+    "CARR": "data/raw/corporate_actions/CARR_full_chart.json",
+    "GEV": "data/raw/corporate_actions/GEV_full_chart.json",
+    "GEHC": "data/raw/corporate_actions/GEHC_full_chart.json",
+    "GE": "data/raw/corporate_actions/GE_full_chart.json",
+    "KD": "data/raw/corporate_actions/KD_full_chart.json",
+    "IBM": "data/raw/corporate_actions/IBM_full_chart.json",
+    "MMM": "data/raw/corporate_actions/MMM_full_chart.json",
+    "OGN": "data/raw/corporate_actions/OGN_full_chart.json",
+    "OTIS": "data/raw/corporate_actions/OTIS_full_chart.json",
+    "MRK": "data/raw/corporate_actions/MRK_full_chart.json",
+    "PFE": "data/raw/corporate_actions/PFE_full_chart.json",
+    "RTX": "data/raw/corporate_actions/RTX_full_chart.json",
+    "SOLV": "data/raw/corporate_actions/SOLV_full_chart.json",
+    "VTRS": "data/raw/corporate_actions/VTRS_full_chart.json"
+  },
+  "root_input_crosschecks": {
+    "GE": {
+      "primary_price_raw": "data/raw/yahoo_prices/GE_daily_2015-10-01_2026-08-31.json",
+      "full_split_inventory_raw": "data/raw/corporate_actions/GE_full_chart.json",
+      "compared_closes": 2744,
+      "max_relative_close_difference": 0.0
+    },
+    "IBM": {
+      "primary_price_raw": "data/raw/yahoo_prices/IBM_daily_2015-10-01_2026-08-31.json",
+      "full_split_inventory_raw": "data/raw/corporate_actions/IBM_full_chart.json",
+      "compared_closes": 2744,
+      "max_relative_close_difference": 0.0
+    },
+    "MMM": {
+      "primary_price_raw": "data/raw/yahoo_prices/MMM_daily_2015-10-01_2026-08-31.json",
+      "full_split_inventory_raw": "data/raw/corporate_actions/MMM_full_chart.json",
+      "compared_closes": 2744,
+      "max_relative_close_difference": 0.0
+    },
+    "MRK": {
+      "primary_price_raw": "data/raw/yahoo_prices/MRK_daily_2015-10-01_2026-08-31.json",
+      "full_split_inventory_raw": "data/raw/corporate_actions/MRK_full_chart.json",
+      "compared_closes": 2744,
+      "max_relative_close_difference": 0.0
+    },
+    "PFE": {
+      "primary_price_raw": "data/raw/yahoo_prices/PFE_daily_2015-10-01_2026-08-31.json",
+      "full_split_inventory_raw": "data/raw/corporate_actions/PFE_full_chart.json",
+      "compared_closes": 2744,
+      "max_relative_close_difference": 0.0
+    },
+    "RTX": {
+      "primary_price_raw": "data/raw/yahoo_prices/RTX_daily_2015-10-01_2026-08-31.json",
+      "full_split_inventory_raw": "data/raw/corporate_actions/RTX_full_chart.json",
+      "compared_closes": 2744,
+      "max_relative_close_difference": 0.0
+    }
+  },
+  "independent_official_spot_anchors": [
+    {
+      "symbol": "RTX",
+      "date": "2015-10-30",
+      "official_spot_close_anchor": 98.41,
+      "yahoo_split_restored_spot_close": 98.41000129318238,
+      "absolute_price_error": 1.2931823789585906e-06,
+      "official_url": "https://www.sec.gov/Archives/edgar/data/1041130/000119312515412510/d84289dn30d.htm",
+      "pass": true
+    },
+    {
+      "symbol": "GE",
+      "date": "2015-10-30",
+      "official_spot_close_anchor": 28.92,
+      "yahoo_split_restored_spot_close": 28.920000207886957,
+      "absolute_price_error": 2.0788695564988302e-07,
+      "official_url": "https://www.sec.gov/Archives/edgar/data/1041130/000119312515412510/d84289dn30d.htm",
+      "pass": true
+    },
+    {
+      "symbol": "IBM",
+      "date": "2021-11-04",
+      "official_spot_close_anchor": 120.85,
+      "yahoo_split_restored_spot_close": 120.8499984741211,
+      "absolute_price_error": 1.5258789005656581e-06,
+      "official_url": "https://kyndryl.gcs-web.com/shareholder-resources/spinoff-information",
+      "pass": true
+    },
+    {
+      "symbol": "KD",
+      "date": "2021-11-04",
+      "official_spot_close_anchor": 26.38,
+      "yahoo_split_restored_spot_close": 26.3799991607666,
+      "absolute_price_error": 8.392333974427402e-07,
+      "official_url": "https://kyndryl.gcs-web.com/shareholder-resources/spinoff-information",
+      "pass": true
+    }
+  ],
+  "method_notes": [
+    "Yahoo close is normalized by reported subsequent split events; reported events can include synthetic spin-off adjustment factors, not just actual share-count splits.",
+    "Restore parent and child quote units independently using all reported later split factors through retrieval date.",
+    "On each mandatory distribution ex date replace, rather than supplement, the Yahoo adjusted close return.",
+    "On other dates retain Yahoo Adj Close return, including normal cash dividends and ordinary share splits.",
+    "Economic return values all automatically received child shares at that day's close and assumes fractional reinvestment into the main security; no fees, taxes, slippage or fractional-share cash rounding.",
+    "The declared Pfizer ratio is approximately six decimal places; report precision remains subject to that official rounding."
+  ]
+}

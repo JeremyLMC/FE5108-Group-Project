@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "checked_at_utc": "2026-10-06T14:23:13.566007+00:00",
+  "test": "ZIP extracted into a fresh directory, launched from outside the extracted repository root",
+  "steps_completed": 7,
+  "independent_checks": 597,
+  "network_requests": 0,
+  "report_modified": false,
+  "dependencies": "Existing documented Python 3.10.11 scientific environment"
+}

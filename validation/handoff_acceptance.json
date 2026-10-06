@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "checked_at_utc": "2026-10-06T14:23:17.696106+00:00",
+  "analysis_version": "dow2015_29",
+  "report": "reports/stage1/Stage1_Portfolio_Choice_Dow2015_Revised.pdf",
+  "report_pages": 7,
+  "report_copy_matches_reviewed_source": true,
+  "raw_source_files": 146,
+  "independent_numerical_checks": 597,
+  "corporate_action_events": 7,
+  "executed_notebook_code_cells": 7,
+  "notebook_error_outputs": 0,
+  "report_figures": 4,
+  "numeric_tables_match_original": 19,
+  "independent_documentation_and_figure_review": "pass",
+  "private_machine_paths_and_credential_pattern_scan": "pass",
+  "raw_source_line_endings": "Preserved by data/raw/** -text in .gitattributes",
+  "network_acquisition_tested": false,
+  "network_acquisition_validation": "Help and frozen-directory overwrite rejection only",
+  "fresh_archive_extraction_and_execution": "pass"
+}

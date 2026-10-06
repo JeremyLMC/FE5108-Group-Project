@@ -1,0 +1,27 @@
+{
+  "provider": "Yahoo Finance",
+  "symbol": "WMT",
+  "endpoint": "https://query1.finance.yahoo.com/v8/finance/chart/WMT",
+  "requested_parameters": {
+    "period1": 1443657600,
+    "period2": 1788220800,
+    "interval": "1d",
+    "events": "div,splits",
+    "includeAdjustedClose": "true"
+  },
+  "requested_start_date": "2015-10-01",
+  "requested_end_date_inclusive": "2026-08-31",
+  "requested_at_utc": "2026-10-06T02:05:14.863862+00:00",
+  "retrieved_at_utc": "2026-10-06T02:05:22.045082+00:00",
+  "http_status": 200,
+  "response_date_header": "Tue, 06 Oct 2026 02:05:24 GMT",
+  "response_content_type": "application/json;charset=utf-8",
+  "raw_response_file": "WMT_daily_2015-10-01_2026-08-31.json",
+  "quote_close_basis": "Yahoo historical quote.close; split-adjusted price convention; not an unadjusted spot-price claim.",
+  "adjusted_close_basis": "Provider adjclose, used as dividend-and-split-adjusted total-return proxy.",
+  "price_unit": "USD if returned meta.currency is USD; checked during preparation.",
+  "volume_unit": "Shares, vendor-reported historical volume; split-rescaling semantics not separately certified.",
+  "shares_outstanding": "Not supplied or inferred by this preparation.",
+  "amount_and_turnover": "Not supplied or fabricated.",
+  "time_semantics": "Timestamp labels each daily bar; exchange-local calendar date is used, not the bar timestamp as a close execution time."
+}

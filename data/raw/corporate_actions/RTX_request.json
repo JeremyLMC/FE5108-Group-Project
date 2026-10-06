@@ -1,0 +1,13 @@
+{
+  "symbol": "RTX",
+  "endpoint": "https://query1.finance.yahoo.com/v8/finance/chart/RTX",
+  "params": {
+    "period1": 1443657600,
+    "period2": 1791331200,
+    "interval": "1d",
+    "events": "div,splits",
+    "includeAdjustedClose": "true"
+  },
+  "http_status": 200,
+  "retrieved_at": "2026-10-06T10:07:17.413072+08:00"
+}
