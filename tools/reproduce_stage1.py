@@ -1,8 +1,9 @@
 """Reproduce Stage 1 offline from frozen sources and run independent checks.
 
 Run from any working directory: python tools/reproduce_stage1.py
-This updates numeric data/results/figures/validation only. It never edits the
-saved report, accesses a personal database, or issues a network request.
+This updates numeric data/results/validation and the three main report figures.
+It never edits the saved report, accesses a personal database, or issues a
+network request.
 """
 from pathlib import Path
 from datetime import datetime, timezone
@@ -15,7 +16,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 STEPS = ["audit_corporate_actions.py", "prepare_dow2015_inputs.py",
          "run_stage1_dow2015.py", "run_stage1_universe_sensitivity.py",
-         "plot_stage1_weights_three.py", "plot_stage1_removed6.py",
+         "plot_stage1_portfolios_three.py", "plot_stage1_weights_three.py",
          "validate_reproduction.py"]
 
 

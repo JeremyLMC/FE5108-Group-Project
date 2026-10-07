@@ -78,7 +78,7 @@ def paired_three(frame: pd.DataFrame, columns: list, labels: list,
     for ext in ("png", "svg"):
         path = output.with_suffix(f".{ext}")
         fig.savefig(path, dpi=220, bbox_inches="tight", facecolor="white")
-        print(path)
+        print(path.relative_to(ROOT).as_posix())
     plt.close(fig)
 
 
@@ -102,10 +102,30 @@ def main() -> None:
     for column, model_name in zip(time_columns,
                                   ("full_sample", "first_half", "second_half")):
         check_model(time_frame, column, time_models[model_name])
-    paired_three(time_frame, time_columns,
-                 ["Full-sample tangency", "First-half tangency",
-                  "Second-half tangency"],
-                 STAGE / "figures/time_weights_three", (-0.92, 0.90),
+    expected_ranges = {
+        "first_half": ("2015-11", "2021-03"),
+        "second_half": ("2021-04", "2026-08"),
+    }
+    month_names = ("Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+    def month_label(month: str) -> str:
+        year, number = month.split("-")
+        assert len(year) == 4 and 1 <= int(number) <= 12
+        return f"{month_names[int(number) - 1]} {year}"
+
+    dated_labels = ["Full-sample tangency"]
+    for model_name, title in (
+            ("first_half", "First-half tangency"),
+            ("second_half", "Second-half tangency")):
+        model = time_models[model_name]
+        dates = (model["start_month"], model["end_month"])
+        assert dates == expected_ranges[model_name]
+        assert model["observations"] == 65
+        dated_labels.append(
+            f"{title}\n({month_label(dates[0])}–{month_label(dates[1])})")
+    paired_three(time_frame, time_columns, dated_labels,
+                 STAGE / "figures/time_weights_three_dated", (-0.92, 0.90),
                  [-0.75, -0.50, -0.25, 0, 0.25, 0.50, 0.75])
 
     subset_frame = pd.read_csv(subset_source)

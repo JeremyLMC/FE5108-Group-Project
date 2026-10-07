@@ -1,0 +1,82 @@
+{
+  "status": "pass",
+  "scope": "Exhibit 1b three-portfolio weight comparison only",
+  "source_csv": "results/stage1/exhibit_1b_weights.csv",
+  "source_models": "results/stage1/results.json",
+  "source_value_weights": "data/processed/value_weights.csv",
+  "ticker_order": [
+    "MMM",
+    "AXP",
+    "AAPL",
+    "BA",
+    "CAT",
+    "CVX",
+    "CSCO",
+    "KO",
+    "XOM",
+    "GE",
+    "GS",
+    "HD",
+    "INTC",
+    "IBM",
+    "JNJ",
+    "JPM",
+    "MCD",
+    "MRK",
+    "MSFT",
+    "NKE",
+    "PFE",
+    "PG",
+    "TRV",
+    "RTX",
+    "UNH",
+    "VZ",
+    "V",
+    "WMT",
+    "DIS"
+  ],
+  "checks": {
+    "tangency_weight": {
+      "sum": 1.0000000000000002,
+      "max_abs_source_difference": 0.0,
+      "exact_zero_count": 0,
+      "min": -0.4849791325592408,
+      "max": 0.4752044802120688
+    },
+    "value_weight": {
+      "sum": 1.0,
+      "max_abs_source_difference": 0.0,
+      "exact_zero_count": 0,
+      "min": 0.0031973015628220447,
+      "max": 0.25515119101624695
+    },
+    "long_only_weight": {
+      "sum": 1.0,
+      "max_abs_source_difference": 0.0,
+      "exact_zero_count": 15,
+      "min": 0.0,
+      "max": 0.28609051142156683
+    }
+  },
+  "long_only_positive_positions_at_threshold": 9,
+  "positive_position_threshold": 1e-10,
+  "long_only_numerical_residual_count": 5,
+  "long_only_largest_ticker": "MSFT",
+  "long_only_largest_weight": 0.28609051142156683,
+  "bar_count_including_zero_weights": 87,
+  "axis_limits": [
+    -0.55,
+    0.55
+  ],
+  "common_scale": true,
+  "source_bytes_preserved": true,
+  "outputs": [
+    "results/stage1/figures/exhibit_1b_three_portfolios.png",
+    "results/stage1/figures/exhibit_1b_three_portfolios.svg"
+  ],
+  "png_dimensions": [
+    2140,
+    1187
+  ],
+  "visual_review": "not performed by this script"
+}

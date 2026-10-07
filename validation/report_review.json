@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "checked_at_utc": "2026-10-07T13:53:04.812754+00:00",
+  "report_pdf": "reports/stage1/Stage1_Portfolio_Choice_1007.pdf",
+  "editable_report": "reports/stage1/Stage1_Portfolio_Choice_1007.docx",
+  "pages": 4,
+  "report_files_match_reviewed_source": true,
+  "comments": 0,
+  "red_font_markers": 0,
+  "native_math_blocks": 8,
+  "report_content_and_values_preserved": true,
+  "visual_review": {
+    "status": "pass",
+    "report_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "figures": [
+      "results/stage1/figures/exhibit_1b_three_portfolios.png",
+      "results/stage1/figures/time_weights_three_dated.png",
+      "results/stage1/universe_sensitivity/figures/weights_three.png"
+    ],
+    "no_clipping_or_overlap": true
+  },
+  "figure_reproduction": "All three regenerated PNG files exactly match the figures in the reviewed report.",
+  "report_authority": "Manually reviewed Word and PDF; analysis execution does not rewrite them."
+}

@@ -1,9 +1,12 @@
 {
   "status": "pass",
-  "executed_code_cells": 7,
+  "checked_at_utc": "2026-10-07T13:45:34.816218+00:00",
+  "executed_code_cells": 6,
   "error_outputs": 0,
   "python_version": "3.10.11",
   "entrypoint_ran": "tools/reproduce_stage1.py",
   "working_directory": "notebooks",
-  "report_modified": false
+  "report_modified": false,
+  "independent_numerical_checks": 597,
+  "scope": "Executed current 7 October 2026 notebook and its offline reproduction pipeline."
 }

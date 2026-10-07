@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "pass",
   "analysis_version": "dow2015_29",
-  "checked_at_utc": "2026-10-06T14:17:07.311506+00:00",
+  "checked_at_utc": "2026-10-07T13:45:34.115265+00:00",
   "offline": true,
   "methods": {
     "source_inputs": "Independent source JSON/CSV parsing, instructor ordinary-month priority, event-date wealth reconstruction and exact cap-date selection",
@@ -275,31 +275,7 @@
       "pass": true
     },
     {
-      "check": "data/raw/corporate_actions/OTIS_full_chart.json: USD",
-      "pass": true
-    },
-    {
-      "check": "data/raw/corporate_actions/OGN_full_chart.json: USD",
-      "pass": true
-    },
-    {
-      "check": "data/raw/corporate_actions/GEV_full_chart.json: USD",
-      "pass": true
-    },
-    {
-      "check": "data/raw/corporate_actions/KD_full_chart.json: USD",
-      "pass": true
-    },
-    {
-      "check": "data/raw/corporate_actions/MMM_full_chart.json: USD",
-      "pass": true
-    },
-    {
       "check": "data/raw/corporate_actions/VTRS_full_chart.json: USD",
-      "pass": true
-    },
-    {
-      "check": "data/raw/corporate_actions/GEHC_full_chart.json: USD",
       "pass": true
     },
     {
@@ -307,7 +283,15 @@
       "pass": true
     },
     {
-      "check": "data/raw/corporate_actions/SOLV_full_chart.json: USD",
+      "check": "data/raw/corporate_actions/GEHC_full_chart.json: USD",
+      "pass": true
+    },
+    {
+      "check": "data/raw/corporate_actions/CARR_full_chart.json: USD",
+      "pass": true
+    },
+    {
+      "check": "data/raw/corporate_actions/PFE_full_chart.json: USD",
       "pass": true
     },
     {
@@ -319,15 +303,31 @@
       "pass": true
     },
     {
+      "check": "data/raw/corporate_actions/OGN_full_chart.json: USD",
+      "pass": true
+    },
+    {
+      "check": "data/raw/corporate_actions/GEV_full_chart.json: USD",
+      "pass": true
+    },
+    {
       "check": "data/raw/corporate_actions/GE_full_chart.json: USD",
       "pass": true
     },
     {
-      "check": "data/raw/corporate_actions/PFE_full_chart.json: USD",
+      "check": "data/raw/corporate_actions/MMM_full_chart.json: USD",
       "pass": true
     },
     {
-      "check": "data/raw/corporate_actions/CARR_full_chart.json: USD",
+      "check": "data/raw/corporate_actions/KD_full_chart.json: USD",
+      "pass": true
+    },
+    {
+      "check": "data/raw/corporate_actions/OTIS_full_chart.json: USD",
+      "pass": true
+    },
+    {
+      "check": "data/raw/corporate_actions/SOLV_full_chart.json: USD",
       "pass": true
     },
     {

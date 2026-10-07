@@ -1,6 +1,6 @@
 {
   "status": "offline_reproduction_and_validation_passed",
-  "started_at_utc": "2026-10-06T14:16:54.351641+00:00",
+  "started_at_utc": "2026-10-07T13:45:14.135313+00:00",
   "python_version": "3.10.11",
   "network_requests": 0,
   "report_files_modified": false,
@@ -22,11 +22,11 @@
       "status": "completed"
     },
     {
-      "script": "plot_stage1_weights_three.py",
+      "script": "plot_stage1_portfolios_three.py",
       "status": "completed"
     },
     {
-      "script": "plot_stage1_removed6.py",
+      "script": "plot_stage1_weights_three.py",
       "status": "completed"
     },
     {
@@ -40,5 +40,5 @@
     "scipy": "1.15.3",
     "matplotlib": "3.10.8"
   },
-  "finished_at_utc": "2026-10-06T14:17:07.479785+00:00"
+  "finished_at_utc": "2026-10-07T13:45:34.238370+00:00"
 }

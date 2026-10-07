@@ -1,7 +1,10 @@
 # FE5108 Group Project
 
 Reproducible Stage 1 handoff for **Portfolio choice**. The reviewed report is
-[Stage1_Portfolio_Choice_1006.pdf](reports/stage1/Stage1_Portfolio_Choice_1006.pdf).
+[Stage1_Portfolio_Choice_1007.pdf](reports/stage1/Stage1_Portfolio_Choice_1007.pdf).
+The editable version is
+[Stage1_Portfolio_Choice_1007.docx](reports/stage1/Stage1_Portfolio_Choice_1007.docx).
+The report was updated on 7 October 2026 and has four pages.
 This repository contains the current 29-stock analysis, its frozen source data,
 and the inputs needed to continue the project. Earlier 21/24-stock analyses and
 exploratory downloads are omitted.
@@ -22,7 +25,7 @@ python tools/reproduce_stage1.py
 
 The default pipeline works **offline** with the included snapshot. It rebuilds
 the seven corporate-action adjustments, prepares the monthly data, estimates all
-portfolios, draws the four report figures, and runs independent numerical checks.
+portfolios, draws the three figures used in the current report, and runs independent numerical checks.
 The current run's `validation/run.json` must report
 `status: offline_reproduction_and_validation_passed`, and its final verification
 receipt `validation/reproduction.json` must report `status: pass`. Check both;
@@ -37,8 +40,8 @@ python -m pip install -r requirements-notebook.txt
 python -m jupyter lab notebooks/stage1_walkthrough.ipynb
 ```
 
-The edited PDF is a reviewed document snapshot. Running the analysis regenerates
-data, tables and figures; it does not rewrite the report or its manual edits.
+The edited PDF and Word file are reviewed document snapshots. Running the analysis regenerates
+data, tables and figures; it does not rewrite either report file or its manual edits.
 
 ## Current scope
 
@@ -63,7 +66,7 @@ delisting.** Original membership, identity notes and official links are in
 ## Results matching the report
 
 Means and volatility below are **annualized arithmetic** percentages. Stock
-summary statistics in Exhibit 1a are **monthly** percentages.
+summary statistics in Table 1.1 are **monthly** percentages.
 
 | Portfolio / fitting window | Mean % | Volatility % | Model Sharpe | Gross % |
 |---|---:|---:|---:|---:|
@@ -93,7 +96,7 @@ not renormalized pieces of the 29-stock weights.
 | `results/stage1/universe_sensitivity/` | Re-estimated 29 / 23 / 6 portfolios |
 | `validation/` | Frozen accepted numerical reference and newly generated check receipts |
 | `notebooks/stage1_walkthrough.ipynb` | Executed companion to Exhibits 1a–1c and the subset comparisons |
-| `reports/stage1/` | Latest reviewed seven-page report PDF |
+| `reports/stage1/` | Latest reviewed four-page PDF and editable Word report |
 | `docs/DATA_AND_METHODS.md` | Source priority, units, spin-off convention and calculation definitions |
 | `docs/COLLABORATOR_HANDOFF.md` | Exact Stage 2 inputs and continuation instructions |
 
@@ -101,6 +104,22 @@ The raw snapshot is about 12 MB. Duplicate daily CSVs, obsolete analyses, THS
 probes, personal database ingestion code, report-edit scratch files and browser
 screenshots are excluded. The small instructor source file is preserved as
 supplied; the current pipeline uses only its 15 overlapping cohort stocks.
+
+## Report figures
+
+The three current report comparisons are available as PNG and SVG:
+
+| Report table | Figure |
+|---|---|
+| Table 1.2 Portfolio weights | `results/stage1/figures/exhibit_1b_three_portfolios` |
+| Table 1.3 Time re-estimation | `results/stage1/figures/time_weights_three_dated` |
+| Table 1.4 Universe re-estimation | `results/stage1/universe_sensitivity/figures/weights_three` |
+
+The time legend identifies both 65-month estimation windows. The older
+standalone six-stock chart remains available as supplementary material; it is
+not part of the current report or the default walkthrough.
+This update changes report wording, layout and figure presentation. The source
+snapshot, portfolio estimates and accepted numerical reference are unchanged.
 
 ## Continue with Stage 2
 
