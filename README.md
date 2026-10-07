@@ -1,7 +1,7 @@
 # FE5108 Group Project
 
 Reproducible Stage 1 handoff for **Portfolio choice**. The reviewed report is
-[Stage1_Portfolio_Choice_Dow2015_Revised.pdf](reports/stage1/Stage1_Portfolio_Choice_Dow2015_Revised.pdf).
+[Stage1_Portfolio_Choice_1006.pdf](reports/stage1/Stage1_Portfolio_Choice_1006.pdf).
 This repository contains the current 29-stock analysis, its frozen source data,
 and the inputs needed to continue the project. Earlier 21/24-stock analyses and
 exploratory downloads are omitted.

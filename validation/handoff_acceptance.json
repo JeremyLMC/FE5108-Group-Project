@@ -1,8 +1,8 @@
 {
   "status": "pass",
-  "checked_at_utc": "2026-10-06T14:23:17.696106+00:00",
+  "checked_at_utc": "2026-10-07T01:18:05.709122+00:00",
   "analysis_version": "dow2015_29",
-  "report": "reports/stage1/Stage1_Portfolio_Choice_Dow2015_Revised.pdf",
+  "report": "reports/stage1/Stage1_Portfolio_Choice_1006.pdf",
   "report_pages": 7,
   "report_copy_matches_reviewed_source": true,
   "raw_source_files": 146,
