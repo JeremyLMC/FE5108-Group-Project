@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "pages": 4,
+  "exhibits": [
+    "2a",
+    "2b",
+    "2c",
+    "2d"
+  ],
+  "visual_review": "All four rendered pages inspected; no clipped text, overlapping tables or missing glyphs; figure caption includes takeaway",
+  "reference": "Stage1_Portfolio_Choice_1007.pdf, four pages",
+  "report": "reports/Stage2_CAPM_Report.pdf"
+}

@@ -1,0 +1,1 @@
+ChatGPT (Codex) was used to check and debug the Stage 2 Python code, reproduce the CAPM and SML exhibits, and assist with drafting and editing the Stage 2 report; the group reviewed the analysis and remains responsible for all results and claims.

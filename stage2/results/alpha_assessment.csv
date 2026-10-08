@@ -1,0 +1,2 @@
+Number_of_assets,Criterion,Observed_significant_count,Approx_expected_count_under_H0,Significant_tickers
+29,|t(Alpha)| > 2,3,1.4500000000000002,"MSFT, WMT, DIS"

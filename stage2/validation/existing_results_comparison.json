@@ -1,0 +1,47 @@
+{
+  "capm_results.csv": {
+    "status": "matched",
+    "max_absolute_differences": {
+      "Alpha_monthly": 0.0,
+      "Beta": 0.0,
+      "t_Alpha": 0.0,
+      "p_Alpha": 0.0,
+      "R_squared": 0.0,
+      "N": 0.0
+    }
+  },
+  "sml_points.csv": {
+    "status": "matched",
+    "max_absolute_differences": {
+      "Beta": 0.0,
+      "Mean_excess_return": 0.0
+    }
+  },
+  "sml_summary.csv": {
+    "status": "matched",
+    "max_absolute_differences": {
+      "Intercept": 0.0,
+      "Slope": 0.0
+    }
+  },
+  "alpha_tests.csv": {
+    "status": "matched",
+    "max_absolute_differences": {
+      "Alpha_monthly": 0.0,
+      "Beta": 0.0,
+      "t_Alpha": 0.0,
+      "p_Alpha": 0.0,
+      "R_squared": 0.0,
+      "N": 0.0,
+      "Abs_t_Alpha": 0.0
+    }
+  },
+  "alpha_assessment.csv": {
+    "status": "matched",
+    "max_absolute_differences": {
+      "Number_of_assets": 0.0,
+      "Observed_significant_count": 0.0,
+      "Approx_expected_count_under_H0": 0.0
+    }
+  }
+}

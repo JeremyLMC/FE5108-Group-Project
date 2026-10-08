@@ -1,0 +1,21 @@
+{
+  "sample_start": "2015-11",
+  "sample_end": "2026-08",
+  "T": 130,
+  "N": 29,
+  "empirical_intercept": 0.006098604125583263,
+  "empirical_slope": 0.005713170342257284,
+  "theoretical_slope": 0.010642307692307692,
+  "slope_ratio": 0.5368356664209952,
+  "slope_shortfall_fraction": 0.46316433357900477,
+  "crossing_beta": 1.2372558710543733,
+  "cross_section_R_squared": 0.1328584505684578,
+  "observed_significant_alphas": 3,
+  "approx_expected_false_positives": 1.45,
+  "significant_tickers": [
+    "MSFT",
+    "WMT",
+    "DIS"
+  ],
+  "inference": "Conventional OLS; no Holm correction or GRS test"
+}
