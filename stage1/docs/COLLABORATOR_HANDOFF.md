@@ -4,6 +4,20 @@ Stage 1 is ready to supply monthly portfolio returns for the next project
 stages. Read the current report, run the offline pipeline once, and check
 `validation/reproduction.json` before using the inputs.
 
+All paths in the input dictionary below are relative to the Stage 1 package
+root (`stage1/`). The completed Stage 2 package is a sibling at `stage2/`; it
+reads its own frozen copies of the stock-return and factor tables in
+`../stage2/data/` (relative to the Stage 1 package root). Those two copies
+currently match the Stage 1 tables. Stage 2
+does not use the Stage 1 weights or portfolio-return outputs, and the copied
+inputs are not synchronized automatically.
+
+Changes to stock returns, factors, sample membership, dates or cleaning
+conventions require reviewing and synchronizing the affected downstream inputs,
+rerunning the affected analysis, and updating its validation and report. Changes
+only to Stage 1 report wording, figures or portfolio weights do not require the
+current Stage 2 analysis to be rerun.
+
 ## Input dictionary
 
 CSV numeric data are stored at full precision in **decimal units**. Only report
@@ -39,7 +53,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-root = Path('.')  # repository root
+root = Path('stage1')  # Stage 1 package root, when run from the repository root
+# If already running from stage1/, use root = Path('.') instead.
 returns = pd.read_csv(root / 'data/processed/returns_us_monthly.csv',
                       index_col='Month', float_precision='round_trip')
 factors = pd.read_csv(root / 'data/processed/ff3_monthly.csv',
@@ -61,8 +76,10 @@ regression_inputs.insert(0, 'portfolio_excess', portfolio_excess)
 assert not regression_inputs.isna().any().any()
 ```
 
-This prepares the data; factor regressions and alpha inference belong to the
-next stages and have not been estimated here. Use the intercept and inference
+This example prepares Stage 1 portfolio regression inputs; it is not the input
+loader for the current Stage 2 stock-level CAPM analysis. Factor regressions and
+alpha inference on these portfolios have not been estimated in Stage 1.
+Use the intercept and inference
 method required by the assignment. Preserve a clear distinction between fitting
 and evaluation periods when adding subsequent tests.
 
@@ -96,7 +113,8 @@ action replacements, aligned weekly RF / factor returns and separate acceptance.
 No weekly robustness result is claimed by this handoff.
 
 Keep the reviewed Stage 1 snapshot unchanged when experimenting. Use a new
-branch, write next-stage outputs to a new directory such as `results/stage2/`,
+branch, write Stage 2 work inside the repository's `stage2/` package and later
+stages in their own sibling packages,
 and record the analysis version, fitting window and evaluation window. A new
 universe, a new source vintage or a changed event convention should be a named
 new version rather than a silent overwrite of the accepted reference.

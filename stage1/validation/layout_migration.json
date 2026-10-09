@@ -1,0 +1,126 @@
+{
+  "status": "passed",
+  "validation_kind": "directory_relocation_compatibility_of_frozen_historical_snapshot",
+  "new_formal_quantitative_results_published": false,
+  "git_baseline_commit": "5bc660c0d169a0915038c90f22ecfea8af312ff0",
+  "started_at_utc": "2026-10-09T04:03:05.113883+00:00",
+  "finished_at_utc": "2026-10-09T04:03:57.771845+00:00",
+  "historical_stage1_relative_path_base": "stage1/",
+  "preservation": {
+    "tracked_baseline_files": 239,
+    "byte_identical_files": 234,
+    "intentionally_edited_original_files": [
+      ".gitattributes",
+      "stage1/README.md",
+      "stage1/docs/COLLABORATOR_HANDOFF.md",
+      "stage1/notebooks/stage1_walkthrough.ipynb",
+      "stage2/README.md"
+    ],
+    "raw_files_byte_identical_and_git_text_disabled": 146,
+    "reports_byte_identical": 3,
+    "stage2_files_byte_identical_except_readme": 21,
+    "two_stage_input_snapshots_byte_identical": true,
+    "notebook_changes_limited_to_root_discovery": true,
+    "historical_validation_receipts_unchanged": true,
+    "markdown_links_resolve": true
+  },
+  "compatibility": {
+    "stage1_root_command": "passed",
+    "stage1_pipeline_and_independent_validation": "passed",
+    "stage1_notebook_root_discovery_working_directories": [
+      ".",
+      "stage1",
+      "stage1/notebooks"
+    ],
+    "stage1_notebook_full_execution_from_repository_root": "passed",
+    "stage1_notebook_code_cells_executed": 6,
+    "stage1_notebook_error_outputs": 0,
+    "stage2_root_and_folder_commands": "passed",
+    "stage1_result_csv_comparisons": [
+      {
+        "path": "stage1/results/stage1/estimated_covariance_monthly.csv",
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "stage1/results/stage1/estimated_mean_vectors.csv",
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "stage1/results/stage1/exhibit_1a_summary_stats.csv",
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "stage1/results/stage1/exhibit_1b_weights.csv",
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "stage1/results/stage1/exhibit_1c_subsample_weights.csv",
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "stage1/results/stage1/portfolio_monthly_returns.csv",
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "stage1/results/stage1/portfolio_statistics.csv",
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "stage1/results/stage1/universe_sensitivity/portfolio_monthly_returns.csv",
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "stage1/results/stage1/universe_sensitivity/portfolio_statistics.csv",
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "stage1/results/stage1/universe_sensitivity/weights.csv",
+        "max_absolute_numeric_difference": 0.0
+      }
+    ],
+    "stage2_result_csv_comparisons": [
+      {
+        "path": "stage2/results/alpha_assessment.csv",
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "stage2/results/alpha_tests.csv",
+        "max_absolute_numeric_difference": 1.3322676295501878e-15
+      },
+      {
+        "path": "stage2/results/capm_results.csv",
+        "max_absolute_numeric_difference": 1.3322676295501878e-15
+      },
+      {
+        "path": "stage2/results/pricing_deviations.csv",
+        "max_absolute_numeric_difference": 2.220446049250313e-16
+      },
+      {
+        "path": "stage2/results/sml_comparison.csv",
+        "max_absolute_numeric_difference": 8.673617379884035e-19
+      },
+      {
+        "path": "stage2/results/sml_points.csv",
+        "max_absolute_numeric_difference": 2.220446049250313e-16
+      },
+      {
+        "path": "stage2/results/sml_summary.csv",
+        "max_absolute_numeric_difference": 8.673617379884035e-19
+      }
+    ],
+    "comparison_path_base": "repository_root"
+  },
+  "execution_environment": {
+    "python": "3.10.11",
+    "packages": {
+      "numpy": "2.2.6",
+      "pandas": "2.3.2",
+      "scipy": "1.15.3",
+      "matplotlib": "3.10.8",
+      "statsmodels": "0.14.6",
+      "nbclient": "0.10.2"
+    }
+  },
+  "verification_output_policy": "Reproduction ran in an isolated compatibility snapshot; generated inputs, results, figures, notebooks and receipts were not copied into the review checkout.",
+  "github_publication": "authorized_pending_push_at_commit_preparation"
+}

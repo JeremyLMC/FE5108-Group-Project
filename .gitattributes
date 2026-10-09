@@ -1,4 +1,4 @@
 * text=auto eol=lf
-data/raw/** -text
+stage1/data/raw/** -text
 *.pdf binary
 *.png binary

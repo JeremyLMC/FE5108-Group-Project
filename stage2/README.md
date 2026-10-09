@@ -25,11 +25,21 @@ Dependencies and tested versions: Python 3.13.16; see `requirements.txt` and `va
 
 ## Data provenance and conventions
 
-- `data/returns_us_monthly.csv`: unchanged frozen Stage 1 return panel, 130 monthly USD observations (November 2015-August 2026), 29 original October 2015 DJIA members. Old DuPont is excluded; UTX continues as RTX; later index removals remain in the universe. Instructor prices have priority for covered ordinary months; Yahoo provides extensions and other series. Seven mandatory spin-off months use the documented Stage 1 reinvestment convention. Full raw data and cleaning code remain in the parent project's `data/`, `tools/` and `docs/DATA_AND_METHODS.md`.
+- `data/returns_us_monthly.csv`: unchanged frozen Stage 1 return panel, 130 monthly USD observations (November 2015-August 2026), 29 original October 2015 DJIA members. Old DuPont is excluded; UTX continues as RTX; later index removals remain in the universe. Instructor prices have priority for covered ordinary months; Yahoo provides extensions and other series. Seven mandatory spin-off months use the documented Stage 1 reinvestment convention. Full raw data and cleaning code remain in the sibling Stage 1 package at `../stage1/data/`, `../stage1/tools/` and [its data and methods guide](../stage1/docs/DATA_AND_METHODS.md).
 - `data/ff3_monthly.csv`: unchanged Stage 1 Kenneth French monthly factors (202608 vintage). All columns are already decimals, converted from published percent units once. RF is the one-month Treasury-bill proxy. Mkt-RF is the broad US equity market excess return, not the value-weighted 29-stock Stage 1 portfolio. SMB and HML are not used in Stage 2.
 - Subtract the contemporaneous RF once from each stock return. Do not subtract RF again from Mkt-RF or divide either input by 100 again.
 - Alpha, SML intercept and slope are monthly decimal returns in CSVs; tables and plots display percentages. Beta and R squared are unitless. Time-series inference uses conventional OLS standard errors.
 - Stage 2 reproduces from cleaned Stage 1 inputs. Raw-to-clean reproduction belongs to the Stage 1 pipeline; this standalone folder does not claim to reconstruct raw corporate-action data. No new raw downloads or cleaning changes were made.
+
+The two files in `data/` currently have the same contents as
+`../stage1/data/processed/returns_us_monthly.csv` and
+`../stage1/data/processed/ff3_monthly.csv`. Stage 2 reads these local frozen
+copies; they are not synchronized automatically. It does not read Stage 1
+portfolio weights or portfolio results. If stock returns, factors, sample
+membership, dates or cleaning conventions change, review and synchronize the
+affected downstream inputs, rerun the affected analysis, and update its
+validation and report. Changes only to Stage 1 report wording, figures or
+portfolio weights do not require the current Stage 2 analysis to be rerun.
 
 ## Verification
 
