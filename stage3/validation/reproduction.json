@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "checks": [
+    "130 contiguous common months; 29 assets; finite inputs",
+    "CAPM rerun matches the Stage 2 accepted coefficients",
+    "OLS mean identity holds for every stock under both models",
+    "FF3 nests CAPM and does not reduce in-sample R squared",
+    "GRS dimensions and degrees of freedom are valid"
+  ],
+  "stage2_max_absolute_differences": {
+    "Alpha": 1.0061396160665481e-16,
+    "Beta": 6.661338147750939e-16,
+    "t_Alpha": 1.5543122344752192e-15,
+    "R_squared": 4.3021142204224816e-16
+  },
+  "minimum_delta_R_squared": 0.0012752011586288914,
+  "inputs": {
+    "ff3_monthly.csv": "6f04c0b23fd1a6907688bfd2b6dcc58f781e525af4cf9bd60460354c072109ea",
+    "returns_us_monthly.csv": "2dfec2056cb21487dddace4365c1360ef94c5a57c82b885a06d11afeb06442a6"
+  },
+  "python": "3.11.5",
+  "packages": {
+    "numpy": "1.24.3",
+    "pandas": "2.0.3",
+    "scipy": "1.11.1",
+    "statsmodels": "0.14.0",
+    "matplotlib": "3.7.2"
+  }
+}

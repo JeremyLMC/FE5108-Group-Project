@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "course_source": "week05_06_factors_apt_better_v3.pdf",
+  "aligned_topics": [
+    "multifactor return model",
+    "alpha is model-relative",
+    "Fama-French three-factor model",
+    "SMB small-minus-big construction",
+    "HML high-minus-low construction",
+    "compare whether Stage 2 alphas shrink",
+    "joint-alpha diagnostic",
+    "factor-zoo discipline"
+  ],
+  "implementation_choice": "Mkt-RF plus the two additional frozen factors SMB and HML; no extra searched factors"
+}

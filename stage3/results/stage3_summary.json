@@ -1,0 +1,28 @@
+{
+  "sample_start": "2015-11",
+  "sample_end": "2026-08",
+  "T": 130,
+  "N": 29,
+  "added_factors": [
+    "SMB",
+    "HML"
+  ],
+  "capm_significant_alpha_count": 3,
+  "ff3_significant_alpha_count": 0,
+  "capm_significant_tickers": [
+    "MSFT",
+    "WMT",
+    "DIS"
+  ],
+  "ff3_significant_tickers": [],
+  "median_abs_alpha_capm": 0.003864083627238297,
+  "median_abs_alpha_ff3": 0.0031088085835225703,
+  "mean_R_squared_capm": 0.2788392873280641,
+  "mean_R_squared_ff3": 0.3599868818047606,
+  "stage2_signal_verdicts": {
+    "MSFT": "Partially absorbed",
+    "WMT": "Partially absorbed",
+    "DIS": "Partially absorbed"
+  },
+  "inference": "Conventional OLS for direct Stage 2 comparability; GRS reported as a joint robustness test"
+}

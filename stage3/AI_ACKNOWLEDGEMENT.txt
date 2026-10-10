@@ -1,0 +1,4 @@
+ChatGPT Codex was used to help implement and validate the Python analysis,
+generate the Stage 3 exhibits and report layout, and copy-edit the written
+interpretation; all numerical claims were reproduced from the frozen project
+data and should be reviewed by the group before submission.

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "code_cells_executed": 4,
+  "method": "Jupyter nbconvert execute in place from the repository root",
+  "errors": 0,
+  "notebook": "stage3_analysis.ipynb"
+}

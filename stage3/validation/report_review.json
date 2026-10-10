@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "pages": 4,
+  "exhibits": [
+    "3a",
+    "3b",
+    "3c"
+  ],
+  "visual_review": "All four pages rendered to PNG and inspected; no clipped text, overlapping tables, missing glyphs or unreadable chart labels.",
+  "style_reference": "Stage2_CAPM_Report.pdf, four pages",
+  "report": "reports/Stage3_Factors_Report.pdf"
+}
